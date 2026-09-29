@@ -1,0 +1,5337 @@
+{
+  "startedAt": "2026-09-29T16:32:50.807Z",
+  "finishedAt": "2026-09-29T16:35:51.707Z",
+  "scope": "Controlled local renderer; real Fender code and freshly captured Uk2K8Q. Bootstrap manifest and response fixtures overridden. Every non-read network request is aborted before dispatch. No live submission or persistence claims.",
+  "entries": [
+    {
+      "id": "OR-01",
+      "status": "pass",
+      "note": "MARKETING_AND_OPEN_TRACKING renders its stored titles and descriptions",
+      "evidence": [
+        "evidence/model-marketing-and-open-tracking-before.png"
+      ],
+      "detail": {
+        "legend": "Marketing and tracking consent",
+        "fieldset": true,
+        "text": "Marketing and tracking consent\nMarketing Emails\nReceive marketing communications and targeted advertising from us from time to time.\nEmail Open Tracking\nWe and our service providers use open tracking pixels in our marketing and transactional emails to see if you have opened them and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.\n\nYou can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+        "boxes": [
+          {
+            "id": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_marketing",
+            "name": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent",
+            "checked": false,
+            "tabIndex": 0,
+            "ariaLabel": "Marketing Emails. Receive marketing communications and targeted advertising from us from time to time.",
+            "descriptionId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent_disclosure",
+            "description": "You can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+            "label": true
+          },
+          {
+            "id": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_tracking",
+            "name": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent",
+            "checked": false,
+            "tabIndex": 0,
+            "ariaLabel": "Email Open Tracking. We and our service providers use open tracking pixels in our marketing and transactional emails to see if you have opened them and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.",
+            "descriptionId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent_disclosure",
+            "description": "You can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+            "label": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "OR-03",
+      "status": "pass",
+      "note": "MARKETING_AND_OPEN_TRACKING disclosure matches active copy",
+      "evidence": [
+        "evidence/model-marketing-and-open-tracking-before.png"
+      ]
+    },
+    {
+      "id": "OA-02",
+      "status": "pass",
+      "note": "MARKETING_AND_OPEN_TRACKING accessible names are title + description",
+      "evidence": [
+        "evidence/model-marketing-and-open-tracking-before.png"
+      ],
+      "detail": [
+        "Marketing Emails. Receive marketing communications and targeted advertising from us from time to time.",
+        "Email Open Tracking. We and our service providers use open tracking pixels in our marketing and transactional emails to see if you have opened them and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you."
+      ]
+    },
+    {
+      "id": "OB-01",
+      "status": "pass",
+      "note": "MARKETING_AND_OPEN_TRACKING starts unchecked",
+      "evidence": [
+        "evidence/model-marketing-and-open-tracking-before.png"
+      ]
+    },
+    {
+      "id": "OR-01",
+      "status": "pass",
+      "note": "MARKETING_AND_ALL_EMAIL_TRACKING renders its stored titles and descriptions",
+      "evidence": [
+        "evidence/model-marketing-and-all-email-tracking-before.png"
+      ],
+      "detail": {
+        "legend": "Marketing and tracking consent",
+        "fieldset": true,
+        "text": "Marketing and tracking consent\nMarketing Emails\nReceive marketing communications and targeted advertising from us from time to time.\nEmail Tracking\nWe and our service providers use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.\n\nYou can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+        "boxes": [
+          {
+            "id": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_marketing",
+            "name": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent",
+            "checked": false,
+            "tabIndex": 0,
+            "ariaLabel": "Marketing Emails. Receive marketing communications and targeted advertising from us from time to time.",
+            "descriptionId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent_disclosure",
+            "description": "You can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+            "label": true
+          },
+          {
+            "id": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_tracking",
+            "name": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent",
+            "checked": false,
+            "tabIndex": 0,
+            "ariaLabel": "Email Tracking. We and our service providers use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.",
+            "descriptionId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent_disclosure",
+            "description": "You can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+            "label": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "OR-03",
+      "status": "pass",
+      "note": "MARKETING_AND_ALL_EMAIL_TRACKING disclosure matches active copy",
+      "evidence": [
+        "evidence/model-marketing-and-all-email-tracking-before.png"
+      ]
+    },
+    {
+      "id": "OA-02",
+      "status": "pass",
+      "note": "MARKETING_AND_ALL_EMAIL_TRACKING accessible names are title + description",
+      "evidence": [
+        "evidence/model-marketing-and-all-email-tracking-before.png"
+      ],
+      "detail": [
+        "Marketing Emails. Receive marketing communications and targeted advertising from us from time to time.",
+        "Email Tracking. We and our service providers use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you."
+      ]
+    },
+    {
+      "id": "OB-01",
+      "status": "pass",
+      "note": "MARKETING_AND_ALL_EMAIL_TRACKING starts unchecked",
+      "evidence": [
+        "evidence/model-marketing-and-all-email-tracking-before.png"
+      ]
+    },
+    {
+      "id": "OR-02",
+      "status": "pass",
+      "note": "OPEN_TRACKING_COMBINED_CONSENT renders its stored titles and descriptions",
+      "evidence": [
+        "evidence/model-open-tracking-combined-consent-before.png"
+      ],
+      "detail": {
+        "legend": "Marketing and tracking consent",
+        "fieldset": true,
+        "text": "Marketing and tracking consent\nMarketing Emails & Open Email Tracking\nReceive marketing communications and targeted advertising from us from time to time. We and our service providers also use open tracking in our marketing and transactional emails to see if you have opened them and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.\n\nYou can withdraw your consent at any time using the unsubscribe link(s) in the footer of our emails.",
+        "boxes": [
+          {
+            "id": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_combined",
+            "name": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent",
+            "checked": false,
+            "tabIndex": 0,
+            "ariaLabel": "Marketing Emails & Open Email Tracking. Receive marketing communications and targeted advertising from us from time to time. We and our service providers also use open tracking in our marketing and transactional emails to see if you have opened them and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.",
+            "descriptionId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent_disclosure",
+            "description": "You can withdraw your consent at any time using the unsubscribe link(s) in the footer of our emails.",
+            "label": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "OR-03",
+      "status": "pass",
+      "note": "OPEN_TRACKING_COMBINED_CONSENT disclosure matches active copy",
+      "evidence": [
+        "evidence/model-open-tracking-combined-consent-before.png"
+      ]
+    },
+    {
+      "id": "OA-02",
+      "status": "pass",
+      "note": "OPEN_TRACKING_COMBINED_CONSENT accessible names are title + description",
+      "evidence": [
+        "evidence/model-open-tracking-combined-consent-before.png"
+      ],
+      "detail": [
+        "Marketing Emails & Open Email Tracking. Receive marketing communications and targeted advertising from us from time to time. We and our service providers also use open tracking in our marketing and transactional emails to see if you have opened them and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you."
+      ]
+    },
+    {
+      "id": "OB-01",
+      "status": "pass",
+      "note": "OPEN_TRACKING_COMBINED_CONSENT starts unchecked",
+      "evidence": [
+        "evidence/model-open-tracking-combined-consent-before.png"
+      ]
+    },
+    {
+      "id": "OR-02",
+      "status": "pass",
+      "note": "ALL_TRACKING_COMBINED_CONSENT renders its stored titles and descriptions",
+      "evidence": [
+        "evidence/model-all-tracking-combined-consent-before.png"
+      ],
+      "detail": {
+        "legend": "Marketing and tracking consent",
+        "fieldset": true,
+        "text": "Marketing and tracking consent\nMarketing Emails & Email Tracking\nReceive marketing communications and targeted advertising from us from time to time. We and our service providers also use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.\n\nYou can withdraw your consent at any time using the unsubscribe link(s) in the footer of our emails.",
+        "boxes": [
+          {
+            "id": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_combined",
+            "name": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent",
+            "checked": false,
+            "tabIndex": 0,
+            "ariaLabel": "Marketing Emails & Email Tracking. Receive marketing communications and targeted advertising from us from time to time. We and our service providers also use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.",
+            "descriptionId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent_disclosure",
+            "description": "You can withdraw your consent at any time using the unsubscribe link(s) in the footer of our emails.",
+            "label": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "OR-03",
+      "status": "pass",
+      "note": "ALL_TRACKING_COMBINED_CONSENT disclosure matches active copy",
+      "evidence": [
+        "evidence/model-all-tracking-combined-consent-before.png"
+      ]
+    },
+    {
+      "id": "OA-02",
+      "status": "pass",
+      "note": "ALL_TRACKING_COMBINED_CONSENT accessible names are title + description",
+      "evidence": [
+        "evidence/model-all-tracking-combined-consent-before.png"
+      ],
+      "detail": [
+        "Marketing Emails & Email Tracking. Receive marketing communications and targeted advertising from us from time to time. We and our service providers also use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you."
+      ]
+    },
+    {
+      "id": "OB-01",
+      "status": "pass",
+      "note": "ALL_TRACKING_COMBINED_CONSENT starts unchecked",
+      "evidence": [
+        "evidence/model-all-tracking-combined-consent-before.png"
+      ]
+    },
+    {
+      "id": "OR-10",
+      "status": "pass",
+      "note": "Actual local signup_forms and Render scripts completed successfully on isolated eager server 4101 (default 4001 remains blocked)",
+      "evidence": [
+        "evidence/desktop-behavior-before.png"
+      ],
+      "detail": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "OA-01",
+      "status": "pass",
+      "note": "Fieldset has a nonempty legend",
+      "evidence": [
+        "evidence/desktop-behavior-before.png"
+      ],
+      "detail": "Marketing and tracking consent"
+    },
+    {
+      "id": "OA-03",
+      "status": "pass",
+      "note": "All checkboxes reference the same existing disclosure",
+      "evidence": [
+        "evidence/desktop-behavior-before.png"
+      ]
+    },
+    {
+      "id": "OA-04",
+      "status": "pass",
+      "note": "Checkboxes share a nonempty name",
+      "evidence": [
+        "evidence/desktop-behavior-before.png"
+      ],
+      "detail": [
+        "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent",
+        "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_consent"
+      ]
+    },
+    {
+      "id": "OR-08",
+      "status": "pass",
+      "note": "Authored consent-before-email order",
+      "evidence": [
+        "evidence/desktop-behavior-before.png"
+      ]
+    },
+    {
+      "id": "OB-09",
+      "status": "pass",
+      "note": "Fresh isolated browser context restores no prior checkbox selection",
+      "evidence": [
+        "evidence/fresh-session-unchecked.png"
+      ]
+    },
+    {
+      "id": "OR-08",
+      "status": "pass",
+      "note": "Controlled fixture with consent below email preserves DOM order",
+      "evidence": [
+        "evidence/consent-below-email-below-email.png"
+      ]
+    },
+    {
+      "id": "OR-04",
+      "status": "pass",
+      "note": "gate-off: consent omitted while remaining form renders",
+      "evidence": [
+        "evidence/gate-off-no-partial-control.png"
+      ],
+      "detail": {
+        "pageErrors": []
+      }
+    },
+    {
+      "id": "OR-05",
+      "status": "pass",
+      "note": "blank-description: consent omitted while remaining form renders",
+      "evidence": [
+        "evidence/blank-description-no-partial-control.png"
+      ],
+      "detail": {
+        "pageErrors": []
+      }
+    },
+    {
+      "id": "OR-06",
+      "status": "pass",
+      "note": "unknown-model: consent omitted while remaining form renders",
+      "evidence": [
+        "evidence/unknown-model-no-partial-control.png"
+      ],
+      "detail": {
+        "pageErrors": []
+      }
+    },
+    {
+      "id": "OR-07",
+      "status": "pass",
+      "note": "390px layout has no horizontal overflow",
+      "evidence": [
+        "evidence/mobile-390-consent.png"
+      ],
+      "detail": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "root": {
+          "x": 26,
+          "y": 332,
+          "width": 338,
+          "height": 346,
+          "right": 364,
+          "bottom": 678
+        },
+        "labels": [
+          {
+            "x": 26,
+            "y": 332,
+            "width": 338,
+            "height": 82,
+            "right": 364,
+            "bottom": 414
+          },
+          {
+            "x": 26,
+            "y": 414,
+            "width": 338,
+            "height": 193,
+            "right": 364,
+            "bottom": 607
+          }
+        ],
+        "boxes": [
+          {
+            "x": 25,
+            "y": 331,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 332
+          },
+          {
+            "x": 25,
+            "y": 331,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 332
+          }
+        ],
+        "scrollWidth": 338,
+        "clientWidth": 338
+      }
+    },
+    {
+      "id": "OA-10",
+      "status": "pass",
+      "note": "390px checkbox labels provide at least 24\u00d724 CSS pixel click targets",
+      "evidence": [
+        "evidence/mobile-390-consent.png"
+      ],
+      "detail": [
+        {
+          "x": 26,
+          "y": 332,
+          "width": 338,
+          "height": 82,
+          "right": 364,
+          "bottom": 414
+        },
+        {
+          "x": 26,
+          "y": 414,
+          "width": 338,
+          "height": 193,
+          "right": 364,
+          "bottom": 607
+        }
+      ]
+    },
+    {
+      "id": "OA-07",
+      "status": "pass",
+      "note": "Mobile axe WCAG 2.2 AA form-subtree audit",
+      "evidence": [
+        "evidence/mobile-390-consent.png"
+      ],
+      "detail": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "id": "OA-09",
+      "status": "pass",
+      "note": "320px layout has no horizontal overflow",
+      "evidence": [
+        "evidence/mobile-320-consent.png",
+        "evidence/mobile-scroll-evidence-email-and-actions.png"
+      ],
+      "detail": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "root": {
+          "x": 26,
+          "y": 403,
+          "width": 268,
+          "height": 441,
+          "right": 294,
+          "bottom": 844
+        },
+        "labels": [
+          {
+            "x": 26,
+            "y": 403,
+            "width": 268,
+            "height": 100.5,
+            "right": 294,
+            "bottom": 503.5
+          },
+          {
+            "x": 26,
+            "y": 503.5,
+            "width": 268,
+            "height": 248.5,
+            "right": 294,
+            "bottom": 752
+          }
+        ],
+        "boxes": [
+          {
+            "x": 25,
+            "y": 402,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 403
+          },
+          {
+            "x": 25,
+            "y": 402,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 403
+          }
+        ],
+        "scrollWidth": 268,
+        "clientWidth": 268
+      }
+    },
+    {
+      "id": "OR-10",
+      "status": "pass",
+      "note": "Actual local signup_forms and Render scripts completed successfully on isolated eager server 4101 (default 4001 remains blocked)",
+      "evidence": [
+        "evidence/desktop-behavior-before.png"
+      ],
+      "detail": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "OB-02",
+      "status": "pass",
+      "note": "Marketing and tracking toggle independently",
+      "evidence": [
+        "evidence/desktop-behavior-before.png",
+        "evidence/desktop-behavior-tracking-only.png"
+      ],
+      "detail": {
+        "a": [
+          true,
+          false
+        ],
+        "b": [
+          true,
+          true
+        ],
+        "c": [
+          false,
+          true
+        ]
+      }
+    },
+    {
+      "id": "OB-03",
+      "status": "pass",
+      "note": "Clicking tracking description toggles only its checkbox",
+      "evidence": [
+        "evidence/desktop-behavior-tracking-only.png",
+        "evidence/desktop-behavior-label-toggle.png"
+      ]
+    },
+    {
+      "id": "OA-05",
+      "status": "pass",
+      "note": "Tab reaches kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_marketing; Space toggles both directions",
+      "evidence": [
+        "evidence/desktop-behavior-keyboard-focus.png"
+      ]
+    },
+    {
+      "id": "OA-05",
+      "status": "pass",
+      "note": "Tab reaches kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_tracking; Space toggles both directions",
+      "evidence": [
+        "evidence/desktop-behavior-keyboard-focus.png"
+      ]
+    },
+    {
+      "id": "OA-05",
+      "status": "pass",
+      "note": "Tab order matches checkbox DOM order",
+      "evidence": [
+        "evidence/desktop-behavior-keyboard-focus.png"
+      ],
+      "detail": [
+        "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_marketing",
+        "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_4_tracking"
+      ]
+    },
+    {
+      "id": "OB-06",
+      "status": "pass",
+      "note": "Empty email displays client validation and stays open without a subscription request",
+      "evidence": [
+        "evidence/desktop-behavior-before.png",
+        "evidence/desktop-behavior-empty-email-error.png"
+      ],
+      "detail": {
+        "invalid": "true",
+        "describedBy": "klaviyo_ariaid_7",
+        "messages": [
+          {
+            "id": "klaviyo_ariaid_7",
+            "text": "This field is required",
+            "role": "alert"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OA-11",
+      "status": "partial",
+      "note": "aria-invalid and associated error text inspected; actual screen-reader announcement is untested",
+      "evidence": [
+        "evidence/desktop-behavior-empty-email-error.png"
+      ],
+      "detail": {
+        "invalid": "true",
+        "describedBy": "klaviyo_ariaid_7",
+        "messages": [
+          {
+            "id": "klaviyo_ariaid_7",
+            "text": "This field is required",
+            "role": "alert"
+          }
+        ]
+      }
+    },
+    {
+      "id": "OA-07",
+      "status": "pass",
+      "note": "Desktop axe WCAG 2.2 AA form-subtree audit",
+      "evidence": [
+        "evidence/desktop-behavior-empty-email-error.png"
+      ],
+      "detail": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "id": "OB-10",
+      "status": "pass",
+      "note": "Consent renders and toggles with analytics requests blocked",
+      "evidence": [
+        "evidence/desktop-behavior-tracking-only.png"
+      ],
+      "detail": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ]
+    },
+    {
+      "id": "OR-09",
+      "status": "pass",
+      "note": "Circle teaser reopens interactive consent form",
+      "evidence": [
+        "evidence/desktop-behavior-closed.png",
+        "evidence/desktop-behavior-teaser-reopened.png"
+      ]
+    },
+    {
+      "id": "OB-04",
+      "status": "pass",
+      "note": "Combined checkbox toggles and stores only COMBINED, then an empty selection",
+      "evidence": [
+        "evidence/combined-state-and-stale-choice-unchecked.png",
+        "evidence/combined-state-and-stale-choice-checked.png"
+      ],
+      "detail": {
+        "stored": [
+          [
+            "COMBINED"
+          ]
+        ],
+        "empty": [
+          []
+        ]
+      }
+    },
+    {
+      "id": "OB-05",
+      "status": "pass",
+      "note": "Controlled renderer state switch from combined to separate ignores the stale COMBINED token",
+      "evidence": [
+        "evidence/combined-state-and-stale-choice-checked.png",
+        "evidence/combined-state-and-stale-choice-separate-stale-filtered.png"
+      ],
+      "detail": {
+        "staleState": [
+          [
+            "COMBINED"
+          ]
+        ],
+        "checked": [
+          false,
+          false
+        ],
+        "method": "Real store configuration switched locally; no API/persistence claim."
+      }
+    },
+    {
+      "id": "OB-07",
+      "status": "pass",
+      "note": "Secondary close button dismisses form after its closing animation, with no subscription attempt",
+      "evidence": [
+        "evidence/close-after-animation-open.png",
+        "evidence/close-after-animation-closed.png"
+      ]
+    },
+    {
+      "id": "OA-06",
+      "status": "pass",
+      "note": "Keyboard focus has a visible 2px outline; computed outline color meets 3:1 against the form background",
+      "evidence": [
+        "evidence/measure-light-contrast-focus-and-text.png"
+      ],
+      "detail": {
+        "color": "rgb(0, 0, 0)",
+        "width": "2px",
+        "style": "auto",
+        "ratio": 18.60537652887476,
+        "focusVisible": true
+      }
+    },
+    {
+      "id": "OA-08",
+      "status": "pass",
+      "note": "Consent titles, descriptions, and disclosure meet AA contrast in authored light and controlled dark themes",
+      "evidence": [
+        "evidence/measure-light-contrast-focus-and-text.png",
+        "evidence/measure-dark-contrast-focus-and-text.png"
+      ],
+      "detail": [
+        {
+          "theme": "authored light",
+          "entries": [
+            {
+              "text": "Marketing Emails",
+              "foreground": "rgb(0, 0, 0)",
+              "background": [
+                244,
+                241,
+                233
+              ],
+              "fontSize": 16,
+              "fontWeight": "700",
+              "ratio": 18.60537652887476,
+              "minimum": 4.5
+            },
+            {
+              "text": "Receive marketing communications and targeted advertising from us from time to time.",
+              "foreground": "rgb(0, 0, 0)",
+              "background": [
+                244,
+                241,
+                233
+              ],
+              "fontSize": 16,
+              "fontWeight": "400",
+              "ratio": 18.60537652887476,
+              "minimum": 4.5
+            },
+            {
+              "text": "Email Tracking",
+              "foreground": "rgb(0, 0, 0)",
+              "background": [
+                244,
+                241,
+                233
+              ],
+              "fontSize": 16,
+              "fontWeight": "700",
+              "ratio": 18.60537652887476,
+              "minimum": 4.5
+            },
+            {
+              "text": "We and our service providers use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.",
+              "foreground": "rgb(0, 0, 0)",
+              "background": [
+                244,
+                241,
+                233
+              ],
+              "fontSize": 16,
+              "fontWeight": "400",
+              "ratio": 18.60537652887476,
+              "minimum": 4.5
+            },
+            {
+              "text": "You can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+              "foreground": "rgb(0, 0, 0)",
+              "background": [
+                244,
+                241,
+                233
+              ],
+              "fontSize": 18,
+              "fontWeight": "400",
+              "ratio": 18.60537652887476,
+              "minimum": 4.5
+            }
+          ],
+          "focus": {
+            "color": "rgb(0, 0, 0)",
+            "width": "2px",
+            "style": "auto",
+            "ratio": 18.60537652887476,
+            "focusVisible": true
+          },
+          "evidence": "evidence/measure-light-contrast-focus-and-text.png"
+        },
+        {
+          "theme": "dark",
+          "entries": [
+            {
+              "text": "Marketing Emails",
+              "foreground": "rgb(255, 255, 255)",
+              "background": [
+                24,
+                24,
+                24
+              ],
+              "fontSize": 16,
+              "fontWeight": "700",
+              "ratio": 17.756264715186326,
+              "minimum": 4.5
+            },
+            {
+              "text": "Receive marketing communications and targeted advertising from us from time to time.",
+              "foreground": "rgb(255, 255, 255)",
+              "background": [
+                24,
+                24,
+                24
+              ],
+              "fontSize": 16,
+              "fontWeight": "400",
+              "ratio": 17.756264715186326,
+              "minimum": 4.5
+            },
+            {
+              "text": "Email Tracking",
+              "foreground": "rgb(255, 255, 255)",
+              "background": [
+                24,
+                24,
+                24
+              ],
+              "fontSize": 16,
+              "fontWeight": "700",
+              "ratio": 17.756264715186326,
+              "minimum": 4.5
+            },
+            {
+              "text": "We and our service providers use tracking pixels, including open and click tracking, in our marketing and transactional emails to see if you have opened them or clicked our links and to gather device information. This helps us personalize content, adjust how often we message you, and choose the best channel to reach you.",
+              "foreground": "rgb(255, 255, 255)",
+              "background": [
+                24,
+                24,
+                24
+              ],
+              "fontSize": 16,
+              "fontWeight": "400",
+              "ratio": 17.756264715186326,
+              "minimum": 4.5
+            },
+            {
+              "text": "You can withdraw your consent at any time using the unsubscribe link in the footer of our emails.",
+              "foreground": "rgb(255, 255, 255)",
+              "background": [
+                24,
+                24,
+                24
+              ],
+              "fontSize": 18,
+              "fontWeight": "400",
+              "ratio": 17.756264715186326,
+              "minimum": 4.5
+            }
+          ],
+          "focus": {
+            "color": "rgb(0, 0, 0)",
+            "width": "2px",
+            "style": "auto",
+            "ratio": 1.1826811740444159,
+            "focusVisible": true
+          },
+          "evidence": "evidence/measure-dark-contrast-focus-and-text.png"
+        }
+      ]
+    },
+    {
+      "id": "OA-12",
+      "status": "partial",
+      "note": "Consent input, legend, disclosure IDs and group names are unique across two simultaneous embedded instances. Whole-page inspection finds duplicate email and rich-text IDs outside consent. The exact authored A/B-version scenario remains untested.",
+      "evidence": [
+        "evidence/two-embedded-instances-distinct-ids.png"
+      ],
+      "detail": {
+        "duplicates": [
+          "rich-text-01M3A6FZEF2MD1WH1JHNQ2DF9N",
+          "rich-text-01M3A6FZENJKS2PGW8PR1GHHD2",
+          "rich-text-01M3A6FZEVTTDFGKX44TZJAWCX",
+          "email_01M3A6FZF8HY1NSH15TBW7M7N6"
+        ],
+        "groups": [
+          {
+            "inputIds": [
+              "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_marketing",
+              "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_tracking"
+            ],
+            "legendId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_consent_legend",
+            "disclosureId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_consent_disclosure",
+            "groupName": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_consent"
+          },
+          {
+            "inputIds": [
+              "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_marketing",
+              "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_tracking"
+            ],
+            "legendId": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent_legend",
+            "disclosureId": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent_disclosure",
+            "groupName": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent"
+          }
+        ]
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "model-MARKETING_AND_OPEN_TRACKING",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "37f1bcc3830bd656f3ecc52fb7cee5d12a1d766fb3db3ad654eecb45e3d5d924",
+      "screenshots": [
+        "evidence/model-marketing-and-open-tracking-before.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "model-MARKETING_AND_ALL_EMAIL_TRACKING",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "screenshots": [
+        "evidence/model-marketing-and-all-email-tracking-before.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "fresh-session",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "screenshots": [
+        "evidence/fresh-session-unchecked.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "consent-below-email",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "73946035b7938ea6a333fbfa02ab4a0c01e7927076362d643ec7d98031eba25c",
+      "screenshots": [
+        "evidence/consent-below-email-below-email.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "gate-off",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "screenshots": [
+        "evidence/gate-off-no-partial-control.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "blank-description",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "b27e0958619ced05be46f1db7e62f3e7e75f77faedb3e6c0da593e527e68aa3c",
+      "screenshots": [
+        "evidence/blank-description-no-partial-control.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "unknown-model",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "ee37fcb7a92fe9fe8a3789b719ddc101db49ca2cc268740c7bcb8d3bb1a032a0",
+      "screenshots": [
+        "evidence/unknown-model-no-partial-control.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "mobile-390",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "screenshots": [
+        "evidence/mobile-390-consent.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "mobile-320",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "screenshots": [
+        "evidence/mobile-320-consent.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "dark-theme",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "a185deb36d07c320203e6b6b822963544ae26ad6eb08b63b4077509fd103dd50",
+      "screenshots": [
+        "evidence/dark-theme-dark.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "model-OPEN_TRACKING_COMBINED_CONSENT",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "4b1df83d662ab8bb82377d70296628ccdec8a79e0e72f1832259c498c8041e32",
+      "screenshots": [
+        "evidence/model-open-tracking-combined-consent-before.png",
+        "evidence/model-open-tracking-combined-consent-checked.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "model-ALL_TRACKING_COMBINED_CONSENT",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "844bd09a6fbdc7c53febe7065fecdee421c950ebc213d28eeed687284c7843ea",
+      "screenshots": [
+        "evidence/model-all-tracking-combined-consent-before.png",
+        "evidence/model-all-tracking-combined-consent-checked.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "desktop-behavior",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "screenshots": [
+        "evidence/desktop-behavior-before.png",
+        "evidence/desktop-behavior-tracking-only.png",
+        "evidence/desktop-behavior-label-toggle.png",
+        "evidence/desktop-behavior-keyboard-focus.png",
+        "evidence/desktop-behavior-empty-email-error.png",
+        "evidence/desktop-behavior-closed.png",
+        "evidence/desktop-behavior-teaser-reopened.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "combined-state-and-stale-choice",
+      "mode": "controlled-local-renderer",
+      "startedAt": "2026-09-29T16:34:47.728Z",
+      "fixtureHash": "844bd09a6fbdc7c53febe7065fecdee421c950ebc213d28eeed687284c7843ea",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "errors": [],
+      "pageErrors": [],
+      "fullForms": [
+        {
+          "url": "https://a.klaviyo.com/forms/api/v7/full-forms?company_id=WeAFEE&env=web",
+          "marker": "onsite-browser-kit-v1"
+        }
+      ],
+      "documentHits": 1,
+      "screenshots": [
+        "evidence/combined-state-and-stale-choice-unchecked.png",
+        "evidence/combined-state-and-stale-choice-checked.png",
+        "evidence/combined-state-and-stale-choice-separate-stale-filtered.png"
+      ],
+      "identified": false,
+      "finishedAt": "2026-09-29T16:34:48.450Z"
+    },
+    {
+      "name": "close-after-animation",
+      "mode": "controlled-local-renderer",
+      "startedAt": "2026-09-29T16:34:48.457Z",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "errors": [],
+      "pageErrors": [],
+      "fullForms": [
+        {
+          "url": "https://a.klaviyo.com/forms/api/v7/full-forms?company_id=WeAFEE&env=web",
+          "marker": "onsite-browser-kit-v1"
+        }
+      ],
+      "documentHits": 1,
+      "screenshots": [
+        "evidence/close-after-animation-open.png",
+        "evidence/close-after-animation-closed.png"
+      ],
+      "identified": false,
+      "finishedAt": "2026-09-29T16:34:49.937Z"
+    },
+    {
+      "name": "measure-light-contrast",
+      "mode": "controlled-local-renderer",
+      "startedAt": "2026-09-29T16:34:49.950Z",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "errors": [],
+      "pageErrors": [],
+      "fullForms": [
+        {
+          "url": "https://a.klaviyo.com/forms/api/v7/full-forms?company_id=WeAFEE&env=web",
+          "marker": "onsite-browser-kit-v1"
+        }
+      ],
+      "documentHits": 1,
+      "screenshots": [
+        "evidence/measure-light-contrast-focus-and-text.png"
+      ],
+      "identified": false,
+      "finishedAt": "2026-09-29T16:34:50.466Z"
+    },
+    {
+      "name": "measure-dark-contrast",
+      "mode": "controlled-local-renderer",
+      "startedAt": "2026-09-29T16:34:50.472Z",
+      "fixtureHash": "a185deb36d07c320203e6b6b822963544ae26ad6eb08b63b4077509fd103dd50",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "errors": [],
+      "pageErrors": [],
+      "fullForms": [
+        {
+          "url": "https://a.klaviyo.com/forms/api/v7/full-forms?company_id=WeAFEE&env=web",
+          "marker": "onsite-browser-kit-v1"
+        }
+      ],
+      "documentHits": 1,
+      "screenshots": [
+        "evidence/measure-dark-contrast-focus-and-text.png"
+      ],
+      "identified": false,
+      "finishedAt": "2026-09-29T16:34:50.980Z"
+    },
+    {
+      "name": "mobile-scroll-evidence",
+      "mode": "controlled-local-renderer",
+      "startedAt": "2026-09-29T16:34:50.987Z",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "viewport": {
+        "width": 320,
+        "height": 844
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "errors": [],
+      "pageErrors": [],
+      "fullForms": [
+        {
+          "url": "https://a.klaviyo.com/forms/api/v7/full-forms?company_id=WeAFEE&env=web",
+          "marker": "onsite-browser-kit-v1"
+        }
+      ],
+      "documentHits": 1,
+      "screenshots": [
+        "evidence/mobile-scroll-evidence-email-and-actions.png"
+      ],
+      "identified": false,
+      "finishedAt": "2026-09-29T16:34:51.495Z"
+    },
+    {
+      "name": "two-embedded-instances",
+      "mode": "controlled-local-renderer",
+      "startedAt": "2026-09-29T16:35:51.086Z",
+      "fixtureHash": "9a878af7a639263d83effbba596f7e213859bc172f6a9d3fa926cea5a42ab045",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "errors": [],
+      "pageErrors": [],
+      "fullForms": [
+        {
+          "url": "https://a.klaviyo.com/forms/api/v7/full-forms?company_id=WeAFEE&env=web",
+          "marker": "onsite-browser-kit-v1"
+        }
+      ],
+      "documentHits": 1,
+      "screenshots": [
+        "evidence/two-embedded-instances-distinct-ids.png"
+      ],
+      "identified": false,
+      "finishedAt": "2026-09-29T16:35:51.700Z"
+    }
+  ],
+  "findings": [
+    {
+      "id": "MULTI-INSTANCE-IDS",
+      "severity": "finding",
+      "title": "Duplicate email and rich-text IDs across two embedded instances",
+      "scope": "Controlled fixture converts Uk2K8Q to EMBED and mounts it twice. Consent IDs remain unique. This is not an authored A/B test.",
+      "evidence": [
+        "evidence/two-embedded-instances-distinct-ids.png"
+      ],
+      "detail": {
+        "duplicates": [
+          "rich-text-01M3A6FZEF2MD1WH1JHNQ2DF9N",
+          "rich-text-01M3A6FZENJKS2PGW8PR1GHHD2",
+          "rich-text-01M3A6FZEVTTDFGKX44TZJAWCX",
+          "email_01M3A6FZF8HY1NSH15TBW7M7N6"
+        ],
+        "groups": [
+          {
+            "inputIds": [
+              "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_marketing",
+              "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_tracking"
+            ],
+            "legendId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_consent_legend",
+            "disclosureId": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_consent_disclosure",
+            "groupName": "kl_1_01M3A6FZF1G1Z9B482BVDMASRV_3_consent"
+          },
+          {
+            "inputIds": [
+              "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_marketing",
+              "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_tracking"
+            ],
+            "legendId": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent_legend",
+            "disclosureId": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent_disclosure",
+            "groupName": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent"
+          }
+        ]
+      }
+    }
+  ]
+}
