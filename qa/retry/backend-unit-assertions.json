@@ -1,0 +1,158 @@
+{
+  "appSha": "2dd4f2f962bab6b2231c4f75d85e22b92cd31cf2",
+  "scope": "Isolated synthetic backend fixtures; publish intercepted",
+  "tests": [
+    {
+      "name": "test_validate_block_structure_consent_placement[no_consent_block]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[no_email_anywhere]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[email_on_earlier_step]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[phone_on_same_step_but_no_email]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[email_same_step_both_devices]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[email_same_step_desktop_only_consent_both]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[consent_desktop_only_email_desktop_only]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[consent_desktop_only_email_mobile_only]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[consent_mobile_only_email_mobile_only]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[consent_mobile_only_email_desktop_only]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[two_device_specific_emails_cover_both]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[unreachable_step_is_not_escalated_to_a_blocker]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement[email_mobile_only_version_targets_mobile_only]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement_is_model_independent[MARKETING_AND_OPEN_TRACKING]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement_is_model_independent[MARKETING_AND_ALL_EMAIL_TRACKING]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement_is_model_independent[OPEN_TRACKING_COMBINED_CONSENT]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement_is_model_independent[ALL_TRACKING_COMBINED_CONSENT]",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_consent_placement_scenario_version_keeps_the_consent_step_reachable",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement_needs_step_context",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_block_structure_consent_placement_one_alert_per_block",
+      "class": "tests.signup_forms.services.form_alerting.test_block_validators",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_encoded_object_preserves_data[separate_open]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_encoded_object_preserves_data[separate_all]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_encoded_object_preserves_data[combined_open]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_encoded_object_preserves_data[combined_all]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_reconcile_attrs_preserves_data[separate_open]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_reconcile_attrs_preserves_data[separate_all]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_reconcile_attrs_preserves_data[combined_open]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_get_reconcile_attrs_preserves_data[combined_all]",
+      "class": "tests.onsite.encoded_forms.transformation_services.block.test_marketing_tracking_consent_checkbox_transformation_service.TestMarketingTrackingConsentCheckboxTransformationService",
+      "status": "pass"
+    },
+    {
+      "name": "test_retired_stored_model_loads_without_error[selected_model]",
+      "class": "",
+      "status": "fail",
+      "failure": "ValueError: 'SINGLE_COMBINED_CONSENT' is not a valid MarketingTrackingConsentModel"
+    },
+    {
+      "name": "test_retired_stored_model_loads_without_error[content_by_model]",
+      "class": "",
+      "status": "fail",
+      "failure": "ValueError: 'SINGLE_COMBINED_CONSENT' is not a valid MarketingTrackingConsentModel"
+    }
+  ]
+}

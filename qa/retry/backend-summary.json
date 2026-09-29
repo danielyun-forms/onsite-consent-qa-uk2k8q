@@ -1,0 +1,19 @@
+{
+  "appSha": "2dd4f2f962bab6b2231c4f75d85e22b92cd31cf2",
+  "caseCounts": {
+    "pass": 10,
+    "partial": 1,
+    "fail": 1
+  },
+  "unitTests": {
+    "passed": 28,
+    "failed": 2,
+    "reason": "retired model ValueError"
+  },
+  "contractTests": {
+    "passed": 4,
+    "failed": 1,
+    "reason": "RSS growth guard; all functional assertions completed"
+  },
+  "scope": "isolated backend fixtures; no remote API calls; no WeAFEE/Uk2K8Q changes"
+}

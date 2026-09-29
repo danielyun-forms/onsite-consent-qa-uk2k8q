@@ -1,0 +1,78 @@
+{
+  "sourceSha": "a0a477b9bb0a594c2db134f3758b7cf62fbcb0fa",
+  "generatedAt": "2026-09-29T18:10:10.881893+00:00",
+  "commandExitCode": 0,
+  "passed": 16,
+  "failed": 0,
+  "scope": "Focused repeat of migration suite already included in original 774-test batch; not additional unique coverage",
+  "contract": {
+    "retired_SINGLE_COMBINED_CONSENT": "ALL_TRACKING_COMBINED_CONSENT",
+    "arbitrary_unknown": "MARKETING_AND_ALL_EMAIL_TRACKING"
+  },
+  "tests": [
+    {
+      "name": "migrateMarketingTrackingConsent data without a consent block returns a non-object value untouched",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent data without a consent block returns data with no consent block untouched",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent data without a consent block returns a non-object consent value untouched",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent selectedModel maps the retired bundled value to the all-email-tracking model",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent selectedModel leaves the current model MARKETING_AND_OPEN_TRACKING alone",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent selectedModel leaves the current model MARKETING_AND_ALL_EMAIL_TRACKING alone",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent selectedModel leaves the current model OPEN_TRACKING_COMBINED_CONSENT alone",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent selectedModel leaves the current model ALL_TRACKING_COMBINED_CONSENT alone",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent selectedModel falls back to the recommended model for an unrecognized value",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent selectedModel leaves an absent model absent for the panel to default",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent label to description moves the separate-box labels onto the description fields",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent label to description rekeys the retired bundled content and moves its label across",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent label to description keeps an existing description over the legacy label",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent label to description merges a colliding legacy record field by field, current winning",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent label to description leaves already-current content untouched",
+      "status": "passed"
+    },
+    {
+      "name": "migrateMarketingTrackingConsent does not mutate the data it was given",
+      "status": "passed"
+    }
+  ]
+}

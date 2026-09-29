@@ -1,0 +1,3150 @@
+{
+  "sourceSha": "a0a477b9bb0a594c2db134f3758b7cf62fbcb0fa",
+  "scope": "Jest component/hook/ruleset assertions with mocked dependencies",
+  "suites": [
+    {
+      "file": "client/app/forms/src/Rulesets/tests/marketingTrackingConsentScope.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "marketing/tracking consent surface per form type offers the block and the placement alert in forms",
+          "status": "passed"
+        },
+        {
+          "name": "marketing/tracking consent surface per form type landing pages offers neither the block nor the placement alert",
+          "status": "passed"
+        },
+        {
+          "name": "marketing/tracking consent surface per form type in-app forms offers neither the block nor the placement alert",
+          "status": "passed"
+        },
+        {
+          "name": "marketing/tracking consent surface per form type back in stock offers neither the block nor the placement alert",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "client/app/forms/src/Designer/hooks/useIsAccountTrackingDisabled.test.tsx",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "useIsAccountTrackingDisabled reports tracking disabled when open tracking is off",
+          "status": "passed"
+        },
+        {
+          "name": "useIsAccountTrackingDisabled reports tracking disabled when click tracking is off",
+          "status": "passed"
+        },
+        {
+          "name": "useIsAccountTrackingDisabled reports tracking disabled when both are off",
+          "status": "passed"
+        },
+        {
+          "name": "useIsAccountTrackingDisabled reports tracking enabled when both are on",
+          "status": "passed"
+        },
+        {
+          "name": "useIsAccountTrackingDisabled does not report disabled while the request is still pending",
+          "status": "passed"
+        },
+        {
+          "name": "useIsAccountTrackingDisabled does not report disabled when the request fails",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "client/app/forms/src/Designer/hooks/useAccountTrackingWarning.test.tsx",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "useAccountTrackingWarning visibility shows the warning when tracking is disabled and nothing is dismissed",
+          "status": "passed"
+        },
+        {
+          "name": "useAccountTrackingWarning visibility hides the warning when account tracking is enabled",
+          "status": "passed"
+        },
+        {
+          "name": "useAccountTrackingWarning visibility hides the warning once this form has been dismissed",
+          "status": "passed"
+        },
+        {
+          "name": "useAccountTrackingWarning visibility still shows the warning when a different form was dismissed",
+          "status": "passed"
+        },
+        {
+          "name": "useAccountTrackingWarning visibility hides the warning while clientDB is loading",
+          "status": "passed"
+        },
+        {
+          "name": "useAccountTrackingWarning visibility hides the warning while clientDB is error",
+          "status": "passed"
+        },
+        {
+          "name": "useAccountTrackingWarning dismissing records this form id without clobbering other forms",
+          "status": "passed"
+        },
+        {
+          "name": "useAccountTrackingWarning dismissing writes nothing when clientDB is not ready",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/FormAlerts/FormAlerts.test.tsx",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "FormAlerts sidebar rendering renders the header and tab controls",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sidebar rendering renders OnsiteTrackingSetupManager",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sidebar rendering shows empty state when no alerts",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sidebar rendering closes the right alerts sidebar without clearing the active canvas selection",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sidebar rendering clears the legacy alerts sidebar when Back is clicked in v1",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts tab switching switches between active and dismissed tabs and shows correct empty states",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts tab switching filters alerts by active/dismissed when switching tabs",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the associated component settings for configureImageBlock instead of the blocks tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the associated component settings for configureCountdownTimerBlock instead of the blocks tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the associated component settings for countdownTimerEndTimeInPast instead of the blocks tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the associated component settings for countdownTimerVariableDurationEmpty instead of the blocks tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the targeting display tab for emptyEventNameOnEventTrigger",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the targeting display tab for invalidPropertyFilterOnEventTrigger",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the targeting display tab for invalidDelaySecondsOnDelayTrigger",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts go-to actions opens the targeting display tab for missingPushMessageTitleOnOpenedPushTrigger",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts alert card rendering renders alert cards for violations that exist in the card map",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts alert card rendering renders caution status variant for non-blocking alerts",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts alert card rendering does not render cards for alert types not in the card map",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts removeExtraContinueWithShopBlocks renders in the translated Continue with Shop category",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts removeExtraContinueWithShopBlocks uses backend blocking=true to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts removeExtraContinueWithShopBlocks uses backend blocking=false to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts removeExtraContinueWithShopBlocks opens the associated entity tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopUnsupportedFormType renders in the translated Continue with Shop category",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopUnsupportedFormType uses backend blocking=true to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopUnsupportedFormType uses backend blocking=false to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopUnsupportedFormType opens the associated entity tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopIncompatibleWithSpinToWin renders in the translated Continue with Shop category",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopIncompatibleWithSpinToWin uses backend blocking=true to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopIncompatibleWithSpinToWin uses backend blocking=false to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopIncompatibleWithSpinToWin opens the associated entity tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopMissingIdentifyingInput renders in the translated Continue with Shop category",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopMissingIdentifyingInput uses backend blocking=true to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopMissingIdentifyingInput uses backend blocking=false to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts continueWithShopMissingIdentifyingInput opens the blocks tab instead of the associated entity settings",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts marketingTrackingConsentMissingEmailOnSameStep renders in the translated consent category",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts marketingTrackingConsentMissingEmailOnSameStep uses backend blocking=true to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts marketingTrackingConsentMissingEmailOnSameStep uses backend blocking=false to determine dismissibility",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts marketingTrackingConsentMissingEmailOnSameStep selects the offending consent block rather than the blocks tab",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sync button triggers a sync when the refresh button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sync button disables the refresh button and spins the icon while a manual sync is in flight",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sync button disables the refresh button and spins the icon while an automatic audit is running",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sync button does not spin the icon once a sync has completed",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts categories rendering renders alerts grouped in categories when alerts match a category",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts categories rendering renders empty state for categories with no matching alerts",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts ignore handler calls onIgnore directly when no ignore modal exists for a non-blocking alert",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sync status text displays offline status text when sync status is OFFLINE",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sync status text displays last saved text when lastSyncedAt is provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts sync status text does not display sync status text when status is SYNCED and no lastSyncedAt",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts color-contrast metadata sets component heading and styles button label for color-contrast alerts",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts color-contrast metadata sets the block button label when color-contrast goToTab is not styles",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlerts color-contrast metadata sets teaser heading and button label for color-contrast alerts",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "client/app/forms/src/Utils/normalize/migrateMarketingTrackingConsent.test.ts",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "migrateMarketingTrackingConsent data without a consent block returns a non-object value untouched",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent data without a consent block returns data with no consent block untouched",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent data without a consent block returns a non-object consent value untouched",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent selectedModel maps the retired bundled value to the all-email-tracking model",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent selectedModel leaves the current model MARKETING_AND_OPEN_TRACKING alone",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent selectedModel leaves the current model MARKETING_AND_ALL_EMAIL_TRACKING alone",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent selectedModel leaves the current model OPEN_TRACKING_COMBINED_CONSENT alone",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent selectedModel leaves the current model ALL_TRACKING_COMBINED_CONSENT alone",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent selectedModel falls back to the recommended model for an unrecognized value",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent selectedModel leaves an absent model absent for the panel to default",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent label to description moves the separate-box labels onto the description fields",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent label to description rekeys the retired bundled content and moves its label across",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent label to description keeps an existing description over the legacy label",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent label to description merges a colliding legacy record field by field, current winning",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent label to description leaves already-current content untouched",
+          "status": "passed"
+        },
+        {
+          "name": "migrateMarketingTrackingConsent does not mutate the data it was given",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/Blocks/useBlockAvailability.test.tsx",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns true for AGE_GATE when canUseAgeGate is false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns false for AGE_GATE when canUseAgeGate is true",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns true for OPT_IN_CODE when canUseOptInCodes is false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns true for OPT_IN_CODE when canUseAgeGate is true (even if canUseOptInCodes is true)",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns false for OPT_IN_CODE when canUseOptInCodes is true and canUseAgeGate is false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns false for CUSTOM_HTML when the account is unrestricted",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns true for CUSTOM_HTML when the account is restricted",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns true for MARKETING_TRACKING_CONSENT_CHECKBOX when the forms_marketing_tracking_consent gate is closed",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns false for MARKETING_TRACKING_CONSENT_CHECKBOX when the forms_marketing_tracking_consent gate is open",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP when the main gate is closed and pilot override is false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP when the main gate is closed and pilot override is true",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP with MRR of 0 cents and pilot override false: false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP with MRR of 199999 cents and pilot override false: false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP with MRR of 200000 cents and pilot override false: false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP with MRR of 200001 cents and pilot override false: true",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP with MRR of 200001 cents and pilot override true: false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP when the MRR request fails",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP when the account is ineligible and pilot override is false",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted restricts CONTINUE_WITH_SHOP when the account is ineligible and pilot override is true",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns true for CONTINUE_WITH_SHOP while eligibility is loading",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns true for CONTINUE_WITH_SHOP when eligibility fails",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted disables the eligibility request when the Statsig gate is closed",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability isFeatureRestricted returns false for non-gated component types",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability preview mode returns disabled for any component type when in preview mode",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability success view with input components returns disabled for input components on the success view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability success view with input components does not disable non-input components on the success view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability EMAIL_COMPONENT_TYPE returns disabled when email already exists on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability EMAIL_COMPONENT_TYPE returns disabled when spin-to-win and phone number both exist on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability EMAIL_COMPONENT_TYPE returns not disabled when email does not exist on the view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability COUPON_COMPONENT_TYPE returns disabled when coupon exists on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability COUPON_COMPONENT_TYPE returns not disabled when coupon does not exist on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability CONTINUE_WITH_SHOP_COMPONENT_TYPE returns disabled on a spin-to-win form, which is out of scope for the pilot",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability CONTINUE_WITH_SHOP_COMPONENT_TYPE returns disabled with the one-per-form tooltip when the block already exists in any view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability CONTINUE_WITH_SHOP_COMPONENT_TYPE disables the block when it exists only on the device that is not being edited",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability CONTINUE_WITH_SHOP_COMPONENT_TYPE returns not disabled when the block does not exist anywhere in the form",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability CONTINUE_WITH_SHOP_COMPONENT_TYPE stays enabled on the success view since it is not an input component",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability DISCLOSURES_COMPONENT_TYPE returns disabled when a disclosure block already exists on the view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability DISCLOSURES_COMPONENT_TYPE returns not disabled when no disclosure block exists",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability PHONE_NUMBER_COMPONENT_TYPE returns disabled when phone number already exists in any view and account is not Klaviyo Library",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability PHONE_NUMBER_COMPONENT_TYPE returns not disabled when phone number exists but account is Klaviyo Library",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability PHONE_NUMBER_COMPONENT_TYPE returns disabled when spin-to-win and email both exist on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability SPIN_TO_WIN_COMPONENT_TYPE returns disabled when form already has spin-to-win",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability SPIN_TO_WIN_COMPONENT_TYPE returns disabled when the form already has a Continue with Shop block",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability SPIN_TO_WIN_COMPONENT_TYPE returns disabled on the success view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability SPIN_TO_WIN_COMPONENT_TYPE returns disabled when both email and phone exist on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability SPIN_TO_WIN_COMPONENT_TYPE returns disabled when no PII input exists on or before the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability SPIN_TO_WIN_COMPONENT_TYPE returns not disabled when PII input exists and no other restrictions apply",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability BIS_PROMOTIONAL_EMAIL_CHECKBOX_COMPONENT_TYPE returns disabled when the checkbox already exists on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability BIS_PROMOTIONAL_EMAIL_CHECKBOX_COMPONENT_TYPE returns not disabled when the checkbox does not exist on the current view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability OPT_IN_CODE_INPUT_COMPONENT_TYPE returns disabled when smart opt-in views exist",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability OPT_IN_CODE_INPUT_COMPONENT_TYPE returns disabled when phone input channels do not include SMS",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability OPT_IN_CODE_INPUT_COMPONENT_TYPE returns disabled when consent type is MULTI_STEP_TRANSACTIONAL_PROMOTIONAL",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability PROMOTIONAL_OPT_IN_CHECKBOX_COMPONENT_TYPE returns disabled when promotional opt-in checkbox already exists in any view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability PROMOTIONAL_OPT_IN_CHECKBOX_COMPONENT_TYPE returns disabled when tap-to-text exists",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability PROMOTIONAL_OPT_IN_CHECKBOX_COMPONENT_TYPE returns disabled when consent type is TRANSACTIONAL",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability PROMOTIONAL_OPT_IN_CHECKBOX_COMPONENT_TYPE returns disabled when consent type is MULTI_STEP_TRANSACTIONAL_PROMOTIONAL",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability getBlockAvailability default behavior returns not disabled for unhandled component types",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability returned values returns isSuccessView from the store",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability returned values returns phoneNumberInputComponent from the store",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability MARKETING_TRACKING_CONSENT_CHECKBOX availability is enabled when the gate is open and the current view has an email input",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability MARKETING_TRACKING_CONSENT_CHECKBOX availability is disabled with a reason when the current view has no email input",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability MARKETING_TRACKING_CONSENT_CHECKBOX availability is disabled when a consent block already exists anywhere in the form",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability MARKETING_TRACKING_CONSENT_CHECKBOX availability is disabled on the success view",
+          "status": "passed"
+        },
+        {
+          "name": "useBlockAvailability MARKETING_TRACKING_CONSENT_CHECKBOX availability keeps the success-view rule even though the block left INPUT_COMPONENTS",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/ActiveComponent/MarketingTrackingConsent/MarketingTrackingConsent.test.tsx",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "MarketingTrackingConsent settings consent choices offers both tracking scopes",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings consent choices offers both ways of collecting consent",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings consent choices badges the recommended option in each picker and no other",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings label fields follow the selected model labels the consent section title controls",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings label fields follow the selected model shows both labels for model 1, with open-tracking wording",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings label fields follow the selected model shows the email-tracking field label for model 2",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings label fields follow the selected model shows only the combined label for a bundled model",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings explains how disclosure copy and the privacy notice are handled",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings editing copy edits the marketing label under the selected model",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings editing copy edits the combined label under a bundled model",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings shared block settings edits the block label",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings shared block settings toggles label visibility",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings legacy and API-authored data falls back to the recommended model when no consent config is stored",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings editing copy under the selected model only writes a label edit under the selected model only",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings editing copy under the selected model only writes a disclosure edit under the selected model only",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices checks opensOnly and separate for the stored MARKETING_AND_OPEN_TRACKING",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices checks opensAndClicks and separate for the stored MARKETING_AND_ALL_EMAIL_TRACKING",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices checks opensOnly and combined for the stored OPEN_TRACKING_COMBINED_CONSENT",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices checks opensAndClicks and combined for the stored ALL_TRACKING_COMBINED_CONSENT",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices writes MARKETING_AND_OPEN_TRACKING when the tracking picker changes to opensOnly",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices writes MARKETING_AND_ALL_EMAIL_TRACKING when the tracking picker changes to opensAndClicks",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices writes OPEN_TRACKING_COMBINED_CONSENT when the collection picker changes to combined",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices writes ALL_TRACKING_COMBINED_CONSENT when the collection picker changes to combined",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices writes OPEN_TRACKING_COMBINED_CONSENT when the tracking picker changes to opensOnly",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices writes MARKETING_AND_OPEN_TRACKING when the collection picker changes to separate",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings switching consent choices preserves edited copy when changing choices and restoring the editor state",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings hydrating legacy configurations falls back to the recommended model when the stored model is unknown",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings hydrating legacy configurations hydrates missing stored copy from the component defaults",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings account-wide tracking warning warns when account-wide tracking is disabled",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings account-wide tracking warning renders the warning with a working dismiss control",
+          "status": "passed"
+        },
+        {
+          "name": "MarketingTrackingConsent settings account-wide tracking warning does not warn when both open and click tracking are on",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/FormAlerts/FormAlertCards.test.tsx",
+      "status": "passed",
+      "tests": [
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard renders translated copy and registers its map, category, and navigation",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard renders translated copy and registers its map, category, and navigation",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard renders translated copy and registers its map, category, and navigation",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard renders translated copy and registers its map, category, and navigation",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingListCard explains the publish blocker and opens list configuration",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard renders translated copy and registers its map, category, and navigation",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard sends the marketer to the offending block via the shared action",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard is enabled in the forms ruleset only",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureBlockCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddDisclosureCompanyNameCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddWhatsAppConsentCheckboxBlockCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EnableWebsiteTrackingCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosurePrivacyPolicyCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureTermsOfServiceCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsDisclosureLaunchWorkflowCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfirmSmsSendingInfoCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ConfigureCouponBlockCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddTargetingUrlCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CouponFormMissingInputCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormDesktopCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards CannotSubmitFormMobileCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsDesktopCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnreachableStepsMobileCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextButNoPhoneNumberOnDesktopCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextAndSmartOptInCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextAndSmartOptInCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextAndSmartOptInCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextAndSmartOptInCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextAndSmartOptInCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextAndSmartOptInCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards NoCompatibleSmsNumbersCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PasswordLockOnSiteCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksConsentCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGateBlockOrderBlocksSubmitCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToConsentCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddAgeGateBlockToSubmitCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards InstallKlaviyoFormsForShopifyCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DuplicatePropertyCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards LeadCaptureWithShopCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitDesktopCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingInputFieldForSubmitMobileCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingListForActionCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MissingExternalUrlCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards UnverifiedSmsNumberCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupWhatsAppCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards WhatsAppPhoneNumberMismatchCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards TapToTextUnsupportedMessageCharacter user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsPublishCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsPublishCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsPublishCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VerifyingSmsNumberCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveSmsConsentCheckboxBlockCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableLeadCaptureWithShopCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInAgeGatedCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AddSmsConsentCheckboxBlockCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinDisclosureCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinDisclosureCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinDisclosureCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinDisclosureCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinDisclosureCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinDisclosureCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableDesktopCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinSuccessStepUnreachableMobileCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinNeedsPiiInputCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards AgeGatePromotionalConsentCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SetupOnsiteTrackingPostPublishCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewNotSelectedCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ReviewSkipStepButtonActionsCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndAgeGateIncompatibleCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessAndSpinToWinIncompatibleCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeInputsCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessBeforeRequiredInputCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SkipToSuccessOnSmartOptInCodeStepCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VisualRegressionAccountAlertCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VisualRegressionAccountAlertCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards VisualRegressionAccountAlertCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards EmailCheckboxOnSmsStepCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards PromotionalOptInActionOnPhoneInputStepCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DisableSmartOptInWhatsAppCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards DynamicCouponWithNoRequiredIdentifyingInputCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinCumulativeProbabilityCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards SpinToWinIncompatibleWithSmartOptInCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraSubscribeButtonsCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards RemoveExtraContinueWithShopBlocksCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopUnsupportedFormTypeCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopIncompatibleWithSpinToWinCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards ContinueWithShopMissingIdentifyingInputCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards MarketingTrackingConsentMissingEmailOnSameStepCard user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards BannerMayBeBlockingContent user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsMissing user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive rendering renders without crashing",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive rendering uses the provided testId when specified",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive props handling passes disabled prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive props handling passes ignored prop to BuilderAlertInformationCard",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive props handling passes statusVariant and statusLabel props",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive user interactions calls onGoTo when go-to button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive user interactions calls onIgnore when dismiss button is clicked",
+          "status": "passed"
+        },
+        {
+          "name": "FormAlertCards FormToOpenIsNotLive user interactions does not render dismiss button when onIgnore is not provided",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "appSha": "2dd4f2f962bab6b2231c4f75d85e22b92cd31cf2",
+  "scope": "Isolated synthetic backend fixtures; publish intercepted",
+  "tests": [
+    {
+      "name": "test_create_publish_job_with_misplaced_consent_block_returns_400",
+      "class": ".TestConsentPublishRetry",
+      "status": "fail",
+      "failure": "Failed: Test exceeded RSS growth limit:\n  RSS before: 1,372,848 KB (1340.7 MB)\n  RSS after:  1,714,608 KB (1674.4 MB)\n  Growth:     341,760 KB (333.8 MB)\n  Limit:      307,200 KB (300.0 MB)\n  Exceeded by: 34,560 KB (33.8 MB)"
+    },
+    {
+      "name": "test_create_publish_job_with_consent_block_beside_email_returns_202",
+      "class": ".TestConsentPublishRetry",
+      "status": "pass"
+    },
+    {
+      "name": "test_create_publish_job_ignores_dismissed_and_non_blocking_alerts",
+      "class": ".TestConsentPublishRetry",
+      "status": "pass"
+    },
+    {
+      "name": "test_dismissed_consent_alert",
+      "class": ".TestConsentPublishRetry",
+      "status": "pass"
+    },
+    {
+      "name": "test_validate_serializes_marketing_tracking_consent_alert",
+      "class": ".TestConsentEditorRetry",
+      "status": "pass"
+    }
+  ]
+}

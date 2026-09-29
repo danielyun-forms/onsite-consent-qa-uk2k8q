@@ -1,0 +1,563 @@
+{
+  "scope": "Actual local renderer submission construction; every mutation aborted before network dispatch. Does not verify server processing or stored profiles.",
+  "results": [
+    {
+      "model": "MARKETING_AND_OPEN_TRACKING",
+      "selected": [],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-open-tracking-none-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-open-tracking-none-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "MARKETING_AND_OPEN_TRACKING",
+      "selected": [
+        0
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-open-tracking-0-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-open-tracking-0-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "MARKETING_AND_OPEN_TRACKING",
+      "selected": [
+        1
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-open-tracking-1-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-open-tracking-1-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "MARKETING_AND_OPEN_TRACKING",
+      "selected": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-open-tracking-0-1-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-open-tracking-0-1-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+      "selected": [],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-all-email-tracking-none-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-all-email-tracking-none-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+      "selected": [
+        0
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-all-email-tracking-0-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-all-email-tracking-0-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+      "selected": [
+        1
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-all-email-tracking-1-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-all-email-tracking-1-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+      "selected": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-marketing-and-all-email-tracking-0-1-before-intercepted-submit.png",
+        "evidence/outbound-marketing-and-all-email-tracking-0-1-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "OPEN_TRACKING_COMBINED_CONSENT",
+      "selected": [],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-open-tracking-combined-consent-none-before-intercepted-submit.png",
+        "evidence/outbound-open-tracking-combined-consent-none-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "OPEN_TRACKING_COMBINED_CONSENT",
+      "selected": [
+        0
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-open-tracking-combined-consent-0-before-intercepted-submit.png",
+        "evidence/outbound-open-tracking-combined-consent-0-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "ALL_TRACKING_COMBINED_CONSENT",
+      "selected": [],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-all-tracking-combined-consent-none-before-intercepted-submit.png",
+        "evidence/outbound-all-tracking-combined-consent-none-after-request-aborted.png"
+      ]
+    },
+    {
+      "model": "ALL_TRACKING_COMBINED_CONSENT",
+      "selected": [
+        0
+      ],
+      "status": "pass",
+      "check": {
+        "observedSubmission": true,
+        "privateTokenRequests": []
+      },
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/client/event-bulk-create/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        },
+        {
+          "method": "POST",
+          "url": "http://a.klaviyo.com/client/profiles/",
+          "kind": "submission"
+        }
+      ],
+      "evidence": [
+        "evidence/outbound-all-tracking-combined-consent-0-before-intercepted-submit.png",
+        "evidence/outbound-all-tracking-combined-consent-0-after-request-aborted.png"
+      ]
+    }
+  ]
+}

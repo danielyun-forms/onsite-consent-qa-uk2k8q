@@ -1,0 +1,70 @@
+{
+  "numTotalTestSuites": 8,
+  "numPassedTestSuites": 8,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 774,
+  "numPassedTests": 774,
+  "numFailedTests": 0,
+  "success": true,
+  "sourceSha": "a0a477b9bb0a594c2db134f3758b7cf62fbcb0fa",
+  "generatedAt": "2026-09-29T17:51:45.430318+00:00",
+  "commandExitCode": 0,
+  "executionMode": "Jest jsdom component/hook/ruleset tests; mocked API dependencies. No live browser/API evidence.",
+  "consoleWarnings": [
+    "Legacy react-beautiful-dnd React Redux pure-option warning",
+    "Uncontrolled TextArea changed default value during settings restore test"
+  ],
+  "suites": [
+    {
+      "file": "client/app/forms/src/Rulesets/tests/marketingTrackingConsentScope.test.ts",
+      "status": "passed",
+      "tests": 4
+    },
+    {
+      "file": "client/app/forms/src/Designer/hooks/useIsAccountTrackingDisabled.test.tsx",
+      "status": "passed",
+      "tests": 6
+    },
+    {
+      "file": "client/app/forms/src/Designer/hooks/useAccountTrackingWarning.test.tsx",
+      "status": "passed",
+      "tests": 8
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/FormAlerts/FormAlerts.test.tsx",
+      "status": "passed",
+      "tests": 51
+    },
+    {
+      "file": "client/app/forms/src/Utils/normalize/migrateMarketingTrackingConsent.test.ts",
+      "status": "passed",
+      "tests": 16
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/Blocks/useBlockAvailability.test.tsx",
+      "status": "passed",
+      "tests": 64
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/ActiveComponent/MarketingTrackingConsent/MarketingTrackingConsent.test.tsx",
+      "status": "passed",
+      "tests": 31
+    },
+    {
+      "file": "client/app/forms/src/Designer/Components/SettingTabs/FormAlerts/FormAlertCards.test.tsx",
+      "status": "passed",
+      "tests": 594
+    }
+  ],
+  "additionalFocusedReruns": [
+    {
+      "sourceSha": "a0a477b9bb0a594c2db134f3758b7cf62fbcb0fa",
+      "generatedAt": "2026-09-29T18:10:10.881893+00:00",
+      "commandExitCode": 0,
+      "passed": 16,
+      "failed": 0,
+      "scope": "Focused repeat of migration suite already included in original 774-test batch; not additional unique coverage"
+    }
+  ],
+  "uniqueTestCount": 774
+}

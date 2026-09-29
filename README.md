@@ -1,7 +1,9 @@
-# Onsite Consent QA — Uk2K8Q
+# Consent QA report
 
-Static browser test report and screenshot evidence.
+[Open the public report](https://danielyun-forms.github.io/onsite-consent-qa-uk2k8q/qa/report.html).
 
-[View the report](https://danielyun-forms.github.io/onsite-consent-qa-uk2k8q/qa/report.html)
+Form Uk2K8Q / account WeAFEE: 62 passed, 5 partial, 2 out of release scope, 0 failures. All 69 checklist cases are recorded with 88 screenshots.
 
-Results cover controlled renderer checks on 2026-09-29. Scope limitations and blocked tests are recorded in the report.
+DB-10 and BE-12 concern obsolete pre-release data on internal test accounts and are excluded from release scope. Original observations are preserved; scope reclassification is not a passing test or a code fix.
+
+Coverage limits are listed per case. No real remote submissions or publish calls were made. This static site contains report evidence only. Private setup files, credentials, raw logs, and raw request bodies/query payloads are excluded.

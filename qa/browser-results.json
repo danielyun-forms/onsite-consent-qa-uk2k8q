@@ -1,7 +1,7 @@
 {
-  "startedAt": "2026-09-29T16:32:50.807Z",
-  "finishedAt": "2026-09-29T16:35:51.707Z",
-  "scope": "Controlled local renderer; real Fender code and freshly captured Uk2K8Q. Bootstrap manifest and response fixtures overridden. Every non-read network request is aborted before dispatch. No live submission or persistence claims.",
+  "startedAt": "2026-09-29T18:02:28.422Z",
+  "finishedAt": "2026-09-29T18:02:45.155Z",
+  "scope": "Controlled local renderer; latest local Fender code and unchanged captured Uk2K8Q. Bootstrap manifest and response fixtures overridden. Every non-read network request is aborted before dispatch. No live submission or persistence claims.",
   "entries": [
     {
       "id": "OR-01",
@@ -236,7 +236,7 @@
     {
       "id": "OR-10",
       "status": "pass",
-      "note": "Actual local signup_forms and Render scripts completed successfully on isolated eager server 4101 (default 4001 remains blocked)",
+      "note": "Actual local signup_forms and Render scripts completed successfully on isolated eager server 4101 (alternate-port controlled harness)",
       "evidence": [
         "evidence/desktop-behavior-before.png"
       ],
@@ -252,7 +252,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -267,22 +267,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -292,7 +282,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -302,7 +292,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -352,22 +352,22 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -458,400 +458,6 @@
       "note": "Authored consent-before-email order",
       "evidence": [
         "evidence/desktop-behavior-before.png"
-      ]
-    },
-    {
-      "id": "OB-09",
-      "status": "pass",
-      "note": "Fresh isolated browser context restores no prior checkbox selection",
-      "evidence": [
-        "evidence/fresh-session-unchecked.png"
-      ]
-    },
-    {
-      "id": "OR-08",
-      "status": "pass",
-      "note": "Controlled fixture with consent below email preserves DOM order",
-      "evidence": [
-        "evidence/consent-below-email-below-email.png"
-      ]
-    },
-    {
-      "id": "OR-04",
-      "status": "pass",
-      "note": "gate-off: consent omitted while remaining form renders",
-      "evidence": [
-        "evidence/gate-off-no-partial-control.png"
-      ],
-      "detail": {
-        "pageErrors": []
-      }
-    },
-    {
-      "id": "OR-05",
-      "status": "pass",
-      "note": "blank-description: consent omitted while remaining form renders",
-      "evidence": [
-        "evidence/blank-description-no-partial-control.png"
-      ],
-      "detail": {
-        "pageErrors": []
-      }
-    },
-    {
-      "id": "OR-06",
-      "status": "pass",
-      "note": "unknown-model: consent omitted while remaining form renders",
-      "evidence": [
-        "evidence/unknown-model-no-partial-control.png"
-      ],
-      "detail": {
-        "pageErrors": []
-      }
-    },
-    {
-      "id": "OR-07",
-      "status": "pass",
-      "note": "390px layout has no horizontal overflow",
-      "evidence": [
-        "evidence/mobile-390-consent.png"
-      ],
-      "detail": {
-        "viewport": 390,
-        "documentWidth": 390,
-        "root": {
-          "x": 26,
-          "y": 332,
-          "width": 338,
-          "height": 346,
-          "right": 364,
-          "bottom": 678
-        },
-        "labels": [
-          {
-            "x": 26,
-            "y": 332,
-            "width": 338,
-            "height": 82,
-            "right": 364,
-            "bottom": 414
-          },
-          {
-            "x": 26,
-            "y": 414,
-            "width": 338,
-            "height": 193,
-            "right": 364,
-            "bottom": 607
-          }
-        ],
-        "boxes": [
-          {
-            "x": 25,
-            "y": 331,
-            "width": 1,
-            "height": 1,
-            "right": 26,
-            "bottom": 332
-          },
-          {
-            "x": 25,
-            "y": 331,
-            "width": 1,
-            "height": 1,
-            "right": 26,
-            "bottom": 332
-          }
-        ],
-        "scrollWidth": 338,
-        "clientWidth": 338
-      }
-    },
-    {
-      "id": "OA-10",
-      "status": "pass",
-      "note": "390px checkbox labels provide at least 24\u00d724 CSS pixel click targets",
-      "evidence": [
-        "evidence/mobile-390-consent.png"
-      ],
-      "detail": [
-        {
-          "x": 26,
-          "y": 332,
-          "width": 338,
-          "height": 82,
-          "right": 364,
-          "bottom": 414
-        },
-        {
-          "x": 26,
-          "y": 414,
-          "width": 338,
-          "height": 193,
-          "right": 364,
-          "bottom": 607
-        }
-      ]
-    },
-    {
-      "id": "OA-07",
-      "status": "pass",
-      "note": "Mobile axe WCAG 2.2 AA form-subtree audit",
-      "evidence": [
-        "evidence/mobile-390-consent.png"
-      ],
-      "detail": {
-        "violations": [],
-        "incomplete": []
-      }
-    },
-    {
-      "id": "OA-09",
-      "status": "pass",
-      "note": "320px layout has no horizontal overflow",
-      "evidence": [
-        "evidence/mobile-320-consent.png",
-        "evidence/mobile-scroll-evidence-email-and-actions.png"
-      ],
-      "detail": {
-        "viewport": 320,
-        "documentWidth": 320,
-        "root": {
-          "x": 26,
-          "y": 403,
-          "width": 268,
-          "height": 441,
-          "right": 294,
-          "bottom": 844
-        },
-        "labels": [
-          {
-            "x": 26,
-            "y": 403,
-            "width": 268,
-            "height": 100.5,
-            "right": 294,
-            "bottom": 503.5
-          },
-          {
-            "x": 26,
-            "y": 503.5,
-            "width": 268,
-            "height": 248.5,
-            "right": 294,
-            "bottom": 752
-          }
-        ],
-        "boxes": [
-          {
-            "x": 25,
-            "y": 402,
-            "width": 1,
-            "height": 1,
-            "right": 26,
-            "bottom": 403
-          },
-          {
-            "x": 25,
-            "y": 402,
-            "width": 1,
-            "height": 1,
-            "right": 26,
-            "bottom": 403
-          }
-        ],
-        "scrollWidth": 268,
-        "clientWidth": 268
-      }
-    },
-    {
-      "id": "OR-10",
-      "status": "pass",
-      "note": "Actual local signup_forms and Render scripts completed successfully on isolated eager server 4101 (default 4001 remains blocked)",
-      "evidence": [
-        "evidence/desktop-behavior-before.png"
-      ],
-      "detail": [
-        {
-          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        }
       ]
     },
     {
@@ -1010,6 +616,210 @@
       ]
     },
     {
+      "id": "OB-09",
+      "status": "pass",
+      "note": "Fresh isolated browser context restores no prior checkbox selection",
+      "evidence": [
+        "evidence/fresh-session-unchecked.png"
+      ]
+    },
+    {
+      "id": "OR-08",
+      "status": "pass",
+      "note": "Controlled fixture with consent below email preserves DOM order",
+      "evidence": [
+        "evidence/consent-below-email-below-email.png"
+      ]
+    },
+    {
+      "id": "OR-04",
+      "status": "pass",
+      "note": "gate-off: consent omitted while remaining form renders",
+      "evidence": [
+        "evidence/gate-off-no-partial-control.png"
+      ],
+      "detail": {
+        "pageErrors": []
+      }
+    },
+    {
+      "id": "OR-05",
+      "status": "pass",
+      "note": "blank-description: consent omitted while remaining form renders",
+      "evidence": [
+        "evidence/blank-description-no-partial-control.png"
+      ],
+      "detail": {
+        "pageErrors": []
+      }
+    },
+    {
+      "id": "OR-06",
+      "status": "pass",
+      "note": "unknown-model: consent omitted while remaining form renders",
+      "evidence": [
+        "evidence/unknown-model-no-partial-control.png"
+      ],
+      "detail": {
+        "pageErrors": []
+      }
+    },
+    {
+      "id": "OR-07",
+      "status": "pass",
+      "note": "390px layout has no horizontal overflow",
+      "evidence": [
+        "evidence/mobile-390-consent.png"
+      ],
+      "detail": {
+        "viewport": 390,
+        "documentWidth": 390,
+        "root": {
+          "x": 26,
+          "y": 331,
+          "width": 338,
+          "height": 402,
+          "right": 364,
+          "bottom": 733
+        },
+        "labels": [
+          {
+            "x": 26,
+            "y": 331,
+            "width": 338,
+            "height": 92,
+            "right": 364,
+            "bottom": 423
+          },
+          {
+            "x": 26,
+            "y": 423,
+            "width": 338,
+            "height": 239,
+            "right": 364,
+            "bottom": 662
+          }
+        ],
+        "boxes": [
+          {
+            "x": 25,
+            "y": 330,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 331
+          },
+          {
+            "x": 25,
+            "y": 330,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 331
+          }
+        ],
+        "scrollWidth": 338,
+        "clientWidth": 338
+      }
+    },
+    {
+      "id": "OA-10",
+      "status": "pass",
+      "note": "390px checkbox labels provide at least 24\u00d724 CSS pixel click targets",
+      "evidence": [
+        "evidence/mobile-390-consent.png"
+      ],
+      "detail": [
+        {
+          "x": 26,
+          "y": 331,
+          "width": 338,
+          "height": 92,
+          "right": 364,
+          "bottom": 423
+        },
+        {
+          "x": 26,
+          "y": 423,
+          "width": 338,
+          "height": 239,
+          "right": 364,
+          "bottom": 662
+        }
+      ]
+    },
+    {
+      "id": "OA-07",
+      "status": "pass",
+      "note": "Mobile axe WCAG 2.2 AA form-subtree audit",
+      "evidence": [
+        "evidence/mobile-390-consent.png"
+      ],
+      "detail": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "id": "OA-09",
+      "status": "pass",
+      "note": "320px layout has no horizontal overflow",
+      "evidence": [
+        "evidence/mobile-320-consent.png",
+        "evidence/mobile-scroll-evidence-email-and-actions.png"
+      ],
+      "detail": {
+        "viewport": 320,
+        "documentWidth": 320,
+        "root": {
+          "x": 26,
+          "y": 316,
+          "width": 268,
+          "height": 528,
+          "right": 294,
+          "bottom": 844
+        },
+        "labels": [
+          {
+            "x": 26,
+            "y": 316,
+            "width": 268,
+            "height": 113,
+            "right": 294,
+            "bottom": 429
+          },
+          {
+            "x": 26,
+            "y": 429,
+            "width": 268,
+            "height": 323,
+            "right": 294,
+            "bottom": 752
+          }
+        ],
+        "boxes": [
+          {
+            "x": 25,
+            "y": 315,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 316
+          },
+          {
+            "x": 25,
+            "y": 315,
+            "width": 1,
+            "height": 1,
+            "right": 26,
+            "bottom": 316
+          }
+        ],
+        "scrollWidth": 268,
+        "clientWidth": 268
+      }
+    },
+    {
       "id": "OB-04",
       "status": "pass",
       "note": "Combined checkbox toggles and stores only COMBINED, then an empty selection",
@@ -1093,7 +903,7 @@
                 241,
                 233
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "700",
               "ratio": 18.60537652887476,
               "minimum": 4.5
@@ -1106,7 +916,7 @@
                 241,
                 233
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "400",
               "ratio": 18.60537652887476,
               "minimum": 4.5
@@ -1119,7 +929,7 @@
                 241,
                 233
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "700",
               "ratio": 18.60537652887476,
               "minimum": 4.5
@@ -1132,7 +942,7 @@
                 241,
                 233
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "400",
               "ratio": 18.60537652887476,
               "minimum": 4.5
@@ -1171,7 +981,7 @@
                 24,
                 24
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "700",
               "ratio": 17.756264715186326,
               "minimum": 4.5
@@ -1184,7 +994,7 @@
                 24,
                 24
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "400",
               "ratio": 17.756264715186326,
               "minimum": 4.5
@@ -1197,7 +1007,7 @@
                 24,
                 24
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "700",
               "ratio": 17.756264715186326,
               "minimum": 4.5
@@ -1210,7 +1020,7 @@
                 24,
                 24
               ],
-              "fontSize": 16,
+              "fontSize": 18,
               "fontWeight": "400",
               "ratio": 17.756264715186326,
               "minimum": 4.5
@@ -1243,7 +1053,7 @@
     {
       "id": "OA-12",
       "status": "partial",
-      "note": "Consent input, legend, disclosure IDs and group names are unique across two simultaneous embedded instances. Whole-page inspection finds duplicate email and rich-text IDs outside consent. The exact authored A/B-version scenario remains untested.",
+      "note": "Two simultaneous embedded instances: consent IDs and group names are unique. Whole-page duplicate IDs: 4. The exact authored A/B-version scenario remains untested.",
       "evidence": [
         "evidence/two-embedded-instances-distinct-ids.png"
       ],
@@ -1273,7 +1083,9 @@
             "disclosureId": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent_disclosure",
             "groupName": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent"
           }
-        ]
+        ],
+        "consentIdsDistinct": true,
+        "groupNamesDistinct": true
       }
     }
   ],
@@ -1304,7 +1116,416 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "model-MARKETING_AND_ALL_EMAIL_TRACKING",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
+      "screenshots": [
+        "evidence/model-marketing-and-all-email-tracking-before.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "model-OPEN_TRACKING_COMBINED_CONSENT",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "4b1df83d662ab8bb82377d70296628ccdec8a79e0e72f1832259c498c8041e32",
+      "screenshots": [
+        "evidence/model-open-tracking-combined-consent-before.png",
+        "evidence/model-open-tracking-combined-consent-checked.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1329,17 +1550,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1349,7 +1570,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1444,6 +1670,216 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        }
+      ],
+      "pageErrors": [],
+      "identified": false
+    },
+    {
+      "name": "model-ALL_TRACKING_COMBINED_CONSENT",
+      "mode": "controlled-local-renderer",
+      "fixtureHash": "844bd09a6fbdc7c53febe7065fecdee421c950ebc213d28eeed687284c7843ea",
+      "screenshots": [
+        "evidence/model-all-tracking-combined-consent-before.png",
+        "evidence/model-all-tracking-combined-consent-checked.png"
+      ],
+      "blocked": [
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        }
+      ],
+      "assets": [
+        {
+          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
@@ -1483,16 +1919,37 @@
       "identified": false
     },
     {
-      "name": "model-MARKETING_AND_ALL_EMAIL_TRACKING",
+      "name": "desktop-behavior",
       "mode": "controlled-local-renderer",
       "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
       "screenshots": [
-        "evidence/model-marketing-and-all-email-tracking-before.png"
+        "evidence/desktop-behavior-before.png",
+        "evidence/desktop-behavior-tracking-only.png",
+        "evidence/desktop-behavior-label-toggle.png",
+        "evidence/desktop-behavior-keyboard-focus.png",
+        "evidence/desktop-behavior-empty-email-error.png",
+        "evidence/desktop-behavior-closed.png",
+        "evidence/desktop-behavior-teaser-reopened.png"
       ],
       "blocked": [
         {
           "method": "POST",
           "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://a.klaviyo.com/onsite/track-analytics",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
+          "kind": "other"
+        },
+        {
+          "method": "POST",
+          "url": "https://api-js.datadome.co/js/",
           "kind": "other"
         },
         {
@@ -1513,7 +1970,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1523,12 +1980,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1538,12 +1990,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1563,17 +2010,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1583,17 +2030,27 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1722,17 +2179,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1742,7 +2194,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1752,12 +2204,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1782,12 +2239,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1797,7 +2254,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1817,11 +2274,6 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
           "status": 200,
           "completed": true
@@ -1833,6 +2285,11 @@
         },
         {
           "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1852,12 +2309,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1872,12 +2329,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1916,12 +2373,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/static.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1931,17 +2393,12 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1951,12 +2408,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1971,12 +2433,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -1986,22 +2448,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2021,22 +2478,22 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2056,12 +2513,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2125,27 +2582,22 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2156,6 +2608,16 @@
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2175,7 +2637,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2185,17 +2647,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2225,17 +2682,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2329,11 +2786,6 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
@@ -2344,12 +2796,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2359,7 +2811,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2369,7 +2821,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2379,12 +2831,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2399,12 +2856,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2429,12 +2886,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2444,7 +2901,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2469,12 +2926,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2533,17 +2990,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2573,11 +3025,6 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
           "status": 200,
           "completed": true
@@ -2588,7 +3035,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2598,17 +3050,22 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2737,17 +3194,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2762,12 +3214,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2782,12 +3239,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2797,7 +3259,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2808,11 +3270,6 @@
         },
         {
           "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2842,12 +3299,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2872,12 +3329,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2946,7 +3403,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2956,17 +3413,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -2982,6 +3434,11 @@
         },
         {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3041,12 +3498,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3081,12 +3538,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3145,7 +3602,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3155,7 +3612,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3165,227 +3622,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        }
-      ],
-      "pageErrors": [],
-      "identified": false
-    },
-    {
-      "name": "model-OPEN_TRACKING_COMBINED_CONSENT",
-      "mode": "controlled-local-renderer",
-      "fixtureHash": "4b1df83d662ab8bb82377d70296628ccdec8a79e0e72f1832259c498c8041e32",
-      "screenshots": [
-        "evidence/model-open-tracking-combined-consent-before.png",
-        "evidence/model-open-tracking-combined-consent-checked.png"
-      ],
-      "blocked": [
-        {
-          "method": "POST",
-          "url": "https://a.klaviyo.com/onsite/track-analytics",
-          "kind": "other"
-        },
-        {
-          "method": "POST",
-          "url": "https://a.klaviyo.com/onsite/track-analytics",
-          "kind": "other"
-        },
-        {
-          "method": "POST",
-          "url": "https://api-js.datadome.co/js/",
-          "kind": "other"
-        }
-      ],
-      "assets": [
-        {
-          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3410,436 +3652,11 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        }
-      ],
-      "pageErrors": [],
-      "identified": false
-    },
-    {
-      "name": "model-ALL_TRACKING_COMBINED_CONSENT",
-      "mode": "controlled-local-renderer",
-      "fixtureHash": "844bd09a6fbdc7c53febe7065fecdee421c950ebc213d28eeed687284c7843ea",
-      "screenshots": [
-        "evidence/model-all-tracking-combined-consent-before.png",
-        "evidence/model-all-tracking-combined-consent-checked.png"
-      ],
-      "blocked": [
-        {
-          "method": "POST",
-          "url": "https://a.klaviyo.com/onsite/track-analytics",
-          "kind": "other"
-        },
-        {
-          "method": "POST",
-          "url": "https://a.klaviyo.com/onsite/track-analytics",
-          "kind": "other"
-        }
-      ],
-      "assets": [
-        {
-          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/client_onsite_onsite-event-adapter_src_index_ts-client_shared_sentry_src_constants_index_ts-c-5c16bf.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/onsite-triggering-v2.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~ClientStore~~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~favorites~faq~customerHubRoot~product_recommendations~Render~contentBlocks~embeddedIntegrationBlocks.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~EditProfileForm~SmsMarketingConsentForm~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~customerHubRoot~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/styles.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~onsite-personalization~Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/Render.js?cb=2",
-          "status": 200,
-          "completed": true
-        }
-      ],
-      "pageErrors": [],
-      "identified": false
-    },
-    {
-      "name": "desktop-behavior",
-      "mode": "controlled-local-renderer",
-      "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
-      "screenshots": [
-        "evidence/desktop-behavior-before.png",
-        "evidence/desktop-behavior-tracking-only.png",
-        "evidence/desktop-behavior-label-toggle.png",
-        "evidence/desktop-behavior-keyboard-focus.png",
-        "evidence/desktop-behavior-empty-email-error.png",
-        "evidence/desktop-behavior-closed.png",
-        "evidence/desktop-behavior-teaser-reopened.png"
-      ],
-      "blocked": [
-        {
-          "method": "POST",
-          "url": "https://a.klaviyo.com/onsite/track-analytics",
-          "kind": "other"
-        },
-        {
-          "method": "POST",
-          "url": "https://a.klaviyo.com/onsite/track-analytics",
-          "kind": "other"
-        },
-        {
-          "method": "POST",
-          "url": "https://api-js.datadome.co/js/",
-          "kind": "other"
-        },
-        {
-          "method": "POST",
-          "url": "https://api-js.datadome.co/js/",
-          "kind": "other"
-        },
-        {
-          "method": "POST",
-          "url": "https://a.klaviyo.com/onsite/track-analytics",
-          "kind": "other"
-        }
-      ],
-      "assets": [
-        {
-          "url": "http://localhost:4101/onsite/js/runtime.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/static.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~reviews~in_app_forms~signup_forms~atlas~product_recommendations.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
           "status": 200,
           "completed": true
@@ -3850,22 +3667,22 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3885,22 +3702,22 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -3961,7 +3778,7 @@
     {
       "name": "combined-state-and-stale-choice",
       "mode": "controlled-local-renderer",
-      "startedAt": "2026-09-29T16:34:47.728Z",
+      "startedAt": "2026-09-29T18:02:40.097Z",
       "fixtureHash": "844bd09a6fbdc7c53febe7065fecdee421c950ebc213d28eeed687284c7843ea",
       "viewport": {
         "width": 1440,
@@ -4001,12 +3818,22 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4016,12 +3843,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4031,12 +3858,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4051,17 +3873,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4071,7 +3888,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4101,6 +3918,11 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
@@ -4112,11 +3934,6 @@
         },
         {
           "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4136,12 +3953,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4186,12 +4003,12 @@
         "evidence/combined-state-and-stale-choice-separate-stale-filtered.png"
       ],
       "identified": false,
-      "finishedAt": "2026-09-29T16:34:48.450Z"
+      "finishedAt": "2026-09-29T18:02:40.726Z"
     },
     {
       "name": "close-after-animation",
       "mode": "controlled-local-renderer",
-      "startedAt": "2026-09-29T16:34:48.457Z",
+      "startedAt": "2026-09-29T18:02:40.735Z",
       "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
       "viewport": {
         "width": 1440,
@@ -4226,17 +4043,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4246,7 +4053,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4256,7 +4073,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4326,12 +4143,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4361,12 +4178,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4410,12 +4227,12 @@
         "evidence/close-after-animation-closed.png"
       ],
       "identified": false,
-      "finishedAt": "2026-09-29T16:34:49.937Z"
+      "finishedAt": "2026-09-29T18:02:41.996Z"
     },
     {
       "name": "measure-light-contrast",
       "mode": "controlled-local-renderer",
-      "startedAt": "2026-09-29T16:34:49.950Z",
+      "startedAt": "2026-09-29T18:02:42.001Z",
       "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
       "viewport": {
         "width": 1440,
@@ -4445,6 +4262,11 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
@@ -4456,11 +4278,6 @@
         },
         {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4485,6 +4302,11 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
           "status": 200,
           "completed": true
@@ -4500,22 +4322,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/reviews.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4545,7 +4362,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4555,7 +4372,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4628,12 +4445,12 @@
         "evidence/measure-light-contrast-focus-and-text.png"
       ],
       "identified": false,
-      "finishedAt": "2026-09-29T16:34:50.466Z"
+      "finishedAt": "2026-09-29T18:02:42.471Z"
     },
     {
       "name": "measure-dark-contrast",
       "mode": "controlled-local-renderer",
-      "startedAt": "2026-09-29T16:34:50.472Z",
+      "startedAt": "2026-09-29T18:02:42.477Z",
       "fixtureHash": "a185deb36d07c320203e6b6b822963544ae26ad6eb08b63b4077509fd103dd50",
       "viewport": {
         "width": 1440,
@@ -4663,6 +4480,11 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
@@ -4673,12 +4495,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4688,12 +4505,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4703,12 +4515,22 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~signup_forms~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4723,7 +4545,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4733,17 +4555,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~signup_forms~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4763,17 +4580,17 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4798,12 +4615,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4846,12 +4663,12 @@
         "evidence/measure-dark-contrast-focus-and-text.png"
       ],
       "identified": false,
-      "finishedAt": "2026-09-29T16:34:50.980Z"
+      "finishedAt": "2026-09-29T18:02:43.994Z"
     },
     {
       "name": "mobile-scroll-evidence",
       "mode": "controlled-local-renderer",
-      "startedAt": "2026-09-29T16:34:50.987Z",
+      "startedAt": "2026-09-29T18:02:44.000Z",
       "fixtureHash": "1a41501777a37ba90aa7466890cfcd3a79dc056226ed0d1a01e99df06a74b511",
       "viewport": {
         "width": 320,
@@ -4881,11 +4698,6 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/vendors~client_identity~onsite-personalization~onsite-triggering-v2~in_app_forms~signup_forms~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
@@ -4896,12 +4708,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4921,17 +4738,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/signup_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4941,7 +4758,7 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4956,12 +4773,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/fender_analytics.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~Render~~ClientStore~~onsite-back-in-stock.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -4981,17 +4798,17 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/default~Render~back-in-stock-dynamic-button-handler~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-back-in-stock~ClientStore~.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -5016,12 +4833,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -5064,12 +4881,12 @@
         "evidence/mobile-scroll-evidence-email-and-actions.png"
       ],
       "identified": false,
-      "finishedAt": "2026-09-29T16:34:51.495Z"
+      "finishedAt": "2026-09-29T18:02:44.445Z"
     },
     {
       "name": "two-embedded-instances",
       "mode": "controlled-local-renderer",
-      "startedAt": "2026-09-29T16:35:51.086Z",
+      "startedAt": "2026-09-29T18:02:44.696Z",
       "fixtureHash": "9a878af7a639263d83effbba596f7e213859bc172f6a9d3fa926cea5a42ab045",
       "viewport": {
         "width": 1440,
@@ -5114,17 +4931,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/vendors~faq~static~in_app_forms~signup_forms~~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~telemetry~customerHubRoot~contentBlocks~embeddedIntegrationBlocks~favorites.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~telemetry~in_app_forms.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/vendors~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -5134,17 +4946,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~static~in_app_forms~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~~telemetry.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/default~signup_forms~reviews~in_app_forms.js?cb=2",
-          "status": 200,
-          "completed": true
-        },
-        {
-          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -5164,12 +4971,22 @@
           "completed": true
         },
         {
+          "url": "http://localhost:4101/onsite/js/event_adapter.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
           "url": "http://localhost:4101/onsite/js/post_identification_sync.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
           "url": "http://localhost:4101/onsite/js/vendors~reviews.js?cb=2",
+          "status": 200,
+          "completed": true
+        },
+        {
+          "url": "http://localhost:4101/onsite/js/sharedUtils.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -5219,12 +5036,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/ClientStore.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/vendors~ClientStore.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -5244,12 +5061,12 @@
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
           "status": 200,
           "completed": true
         },
         {
-          "url": "http://localhost:4101/onsite/js/default~back-in-stock-dynamic-button-handler~Render.js?cb=2",
+          "url": "http://localhost:4101/onsite/js/default~Render~onsite-personalization~in_app_forms.js?cb=2",
           "status": 200,
           "completed": true
         },
@@ -5292,15 +5109,15 @@
         "evidence/two-embedded-instances-distinct-ids.png"
       ],
       "identified": false,
-      "finishedAt": "2026-09-29T16:35:51.700Z"
+      "finishedAt": "2026-09-29T18:02:45.150Z"
     }
   ],
   "findings": [
     {
       "id": "MULTI-INSTANCE-IDS",
       "severity": "finding",
-      "title": "Duplicate email and rich-text IDs across two embedded instances",
-      "scope": "Controlled fixture converts Uk2K8Q to EMBED and mounts it twice. Consent IDs remain unique. This is not an authored A/B test.",
+      "title": "Duplicate page IDs across two embedded instances",
+      "scope": "Controlled fixture converts Uk2K8Q to EMBED and mounts it twice. This is not an authored A/B test.",
       "evidence": [
         "evidence/two-embedded-instances-distinct-ids.png"
       ],
@@ -5330,7 +5147,9 @@
             "disclosureId": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent_disclosure",
             "groupName": "kl_2_01M3A6FZF1G1Z9B482BVDMASRV_7_consent"
           }
-        ]
+        ],
+        "consentIdsDistinct": true,
+        "groupNamesDistinct": true
       }
     }
   ]

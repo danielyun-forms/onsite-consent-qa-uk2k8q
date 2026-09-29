@@ -1,0 +1,16 @@
+{
+  "DB-10": {
+    "status": "out-of-scope",
+    "basis": "User explicitly excluded this legacy-model scenario from release scope, consistent with BE-12: the feature is unreleased and the obsolete shape is confined to internal test accounts.",
+    "assessment": "Pre-release legacy-model compatibility is not a release requirement. DB-10 is out of scope and is not classified as a product failure or release blocker.",
+    "followUp": "No compatibility fix is required for release. The current designer intentionally migrates SINGLE_COMBINED_CONSENT to ALL_TRACKING_COMBINED_CONSENT; arbitrary unknown values fall back to the recommended separate model. Remove or recreate obsolete consent blocks on affected internal test forms.",
+    "evidencePolicy": "The original mocked-response observation and spreadsheet expectation mismatch are retained unchanged. This is a scope reclassification, not a new passing test or a code fix."
+  },
+  "BE-12": {
+    "status": "out-of-scope",
+    "basis": "User clarification: the feature has not been released to customers, and the retired shape exists only in forms belonging to two internal test accounts.",
+    "assessment": "Unsupported pre-release test data. Backward compatibility for SINGLE_COMBINED_CONSENT is not a release requirement, so this is not classified as a customer regression, product failure, or release blocker.",
+    "followUp": "Remove or recreate the obsolete consent blocks on the affected internal test forms using the current designer. The captured Uk2K8Q fixture contains no retired token.",
+    "evidencePolicy": "The synthetic reproduction still raises ValueError. Original test assertions and failure evidence are retained unchanged; this is a scope reclassification, not a passing test or a code fix."
+  }
+}

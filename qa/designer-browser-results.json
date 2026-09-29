@@ -1,0 +1,550 @@
+{
+  "scope": "Authenticated local copy of Uk2K8Q; local autosave/validation permitted; remote writes and all publish requests intercepted.",
+  "entries": [
+    {
+      "id": "DR-04",
+      "status": "pass",
+      "note": "Latest designer: all four radio combinations verified in both directions; local saved model, complete canvas copy, checkbox count and settings fields match. Exactly two Recommended badges.",
+      "evidence": [
+        "evidence/designer-model-marketing_and_all_email_tracking.png",
+        "evidence/designer-model-marketing_and_open_tracking.png",
+        "evidence/designer-model-open_tracking_combined_consent.png",
+        "evidence/designer-model-all_tracking_combined_consent.png"
+      ],
+      "detail": [
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        }
+      ]
+    },
+    {
+      "id": "DR-05",
+      "status": "pass",
+      "note": "Latest designer: all four radio combinations verified in both directions; local saved model, complete canvas copy, checkbox count and settings fields match. Exactly two Recommended badges.",
+      "evidence": [
+        "evidence/designer-model-marketing_and_all_email_tracking.png",
+        "evidence/designer-model-marketing_and_open_tracking.png",
+        "evidence/designer-model-open_tracking_combined_consent.png",
+        "evidence/designer-model-all_tracking_combined_consent.png"
+      ],
+      "detail": [
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        }
+      ]
+    },
+    {
+      "id": "DR-07",
+      "status": "pass",
+      "note": "Latest designer: all four radio combinations verified in both directions; local saved model, complete canvas copy, checkbox count and settings fields match. Exactly two Recommended badges.",
+      "evidence": [
+        "evidence/designer-model-marketing_and_all_email_tracking.png",
+        "evidence/designer-model-marketing_and_open_tracking.png",
+        "evidence/designer-model-open_tracking_combined_consent.png",
+        "evidence/designer-model-all_tracking_combined_consent.png"
+      ],
+      "detail": [
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        }
+      ]
+    },
+    {
+      "id": "DB-02",
+      "status": "pass",
+      "note": "Latest designer: all four radio combinations verified in both directions; local saved model, complete canvas copy, checkbox count and settings fields match. Exactly two Recommended badges.",
+      "evidence": [
+        "evidence/designer-model-marketing_and_all_email_tracking.png",
+        "evidence/designer-model-marketing_and_open_tracking.png",
+        "evidence/designer-model-open_tracking_combined_consent.png",
+        "evidence/designer-model-all_tracking_combined_consent.png"
+      ],
+      "detail": [
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        }
+      ]
+    },
+    {
+      "id": "DB-03",
+      "status": "pass",
+      "note": "Latest designer: all four radio combinations verified in both directions; local saved model, complete canvas copy, checkbox count and settings fields match. Exactly two Recommended badges.",
+      "evidence": [
+        "evidence/designer-model-marketing_and_all_email_tracking.png",
+        "evidence/designer-model-marketing_and_open_tracking.png",
+        "evidence/designer-model-open_tracking_combined_consent.png",
+        "evidence/designer-model-all_tracking_combined_consent.png"
+      ],
+      "detail": [
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        }
+      ]
+    },
+    {
+      "id": "DB-06",
+      "status": "pass",
+      "note": "Latest designer: all four radio combinations verified in both directions; local saved model, complete canvas copy, checkbox count and settings fields match. Exactly two Recommended badges.",
+      "evidence": [
+        "evidence/designer-model-marketing_and_all_email_tracking.png",
+        "evidence/designer-model-marketing_and_open_tracking.png",
+        "evidence/designer-model-open_tracking_combined_consent.png",
+        "evidence/designer-model-all_tracking_combined_consent.png"
+      ],
+      "detail": [
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "boxes": 1
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "boxes": 2
+        },
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "boxes": 2
+        }
+      ]
+    },
+    {
+      "id": "DR-08",
+      "status": "pass",
+      "note": "All consent canvas checkboxes have tabindex=-1 in all four models; keyboard Tab navigation did not enter them.",
+      "evidence": [
+        "evidence/designer-model-marketing_and_all_email_tracking.png"
+      ]
+    },
+    {
+      "id": "DB-07",
+      "status": "pass",
+      "note": "Combined consent displays the non-blocking regional/legal warning; local save succeeds.",
+      "evidence": [
+        "evidence/designer-combined-warning.png"
+      ]
+    },
+    {
+      "id": "DB-04",
+      "status": "pass",
+      "note": "Copy edits survive model switches and local autosave; the other three saved model entries remain byte-equivalent.",
+      "evidence": [
+        "evidence/designer-copy-before.png",
+        "evidence/designer-copy-after.png"
+      ]
+    },
+    {
+      "id": "DB-05",
+      "status": "pass",
+      "note": "Copy edits survive model switches and local autosave; the other three saved model entries remain byte-equivalent.",
+      "evidence": [
+        "evidence/designer-copy-before.png",
+        "evidence/designer-copy-after.png"
+      ]
+    },
+    {
+      "id": "DR-06",
+      "status": "pass",
+      "note": "Blank tracking description leaves a visible builder placeholder and no partial checkbox controls.",
+      "evidence": [
+        "evidence/designer-copy-after.png",
+        "evidence/designer-incomplete-placeholder.png"
+      ],
+      "detail": {
+        "text": "Add the missing consent text to show this block.",
+        "fieldset": false,
+        "boxes": [],
+        "justifyContent": null
+      }
+    },
+    {
+      "id": "DB-11",
+      "status": "pass",
+      "note": "Title text is the visible legend when enabled; Show on form off preserves the fallback group name in a visually hidden 1px clipped legend.",
+      "evidence": [
+        "evidence/designer-title-before.png",
+        "evidence/designer-title-shown.png",
+        "evidence/designer-title-hidden.png"
+      ]
+    },
+    {
+      "id": "DB-11",
+      "status": "pass",
+      "note": "Title text is the visible legend when enabled; Show on form off preserves the fallback group name in a visually hidden 1px clipped legend.",
+      "evidence": [
+        "evidence/designer-title-before.png",
+        "evidence/designer-title-shown.png",
+        "evidence/designer-title-hidden.png"
+      ]
+    },
+    {
+      "id": "DR-09",
+      "status": "pass",
+      "note": "Alignment follows flex-start/center/flex-end on the consent wrapper. Spreadsheet names the fieldset; the current implementation applies alignment to its wrapper.",
+      "evidence": [
+        "evidence/designer-align-left.png",
+        "evidence/designer-align-center.png",
+        "evidence/designer-align-right.png"
+      ],
+      "detail": [
+        {
+          "value": "left",
+          "wrapper": "flex-start",
+          "evidence": "evidence/designer-align-left.png"
+        },
+        {
+          "value": "center",
+          "wrapper": "center",
+          "evidence": "evidence/designer-align-center.png"
+        },
+        {
+          "value": "right",
+          "wrapper": "flex-end",
+          "evidence": "evidence/designer-align-right.png"
+        }
+      ]
+    },
+    {
+      "id": "DR-02",
+      "status": "pass",
+      "note": "With the Statsig gate closed via the existing local test override, the Add blocks panel omits Tracking consent entirely.",
+      "evidence": [
+        "evidence/designer-gate-closed-blocks.png"
+      ]
+    },
+    {
+      "id": "DB-09",
+      "status": "pass",
+      "note": "Held account-settings GET pending, then returned HTTP503 in a browser fixture. Consent settings stayed usable with no false disabled-tracking warning in either state. Fresh context had no dismissed-warning state.",
+      "evidence": [
+        "evidence/designer-settings-pending.png",
+        "evidence/designer-settings-failed.png"
+      ]
+    },
+    {
+      "id": "DB-10",
+      "status": "fail",
+      "note": "Browser full-form response fixture with retired SINGLE_COMBINED_CONSENT selects Email opens and clicks + Combined checkbox, not the spreadsheet expected recommended Separate pair. No crash; fixture autosave blocked.",
+      "evidence": [
+        "evidence/designer-retired-model-combined-fallback.png"
+      ]
+    },
+    {
+      "id": "DR-01",
+      "status": "pass",
+      "note": "Gate-open palette offers a draggable consent block; a real drag onto the local form creates the recommended opens-and-clicks/separate model and two checkboxes.",
+      "evidence": [
+        "evidence/designer-fresh-block-available.png",
+        "evidence/designer-fresh-block-dropped.png"
+      ],
+      "detail": [
+        {
+          "id": "01M3Q5SE3TQ3MQ2SBEHFAEQ82Y",
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING"
+        }
+      ]
+    },
+    {
+      "id": "DB-01",
+      "status": "pass",
+      "note": "Gate-open palette offers a draggable consent block; a real drag onto the local form creates the recommended opens-and-clicks/separate model and two checkboxes.",
+      "evidence": [
+        "evidence/designer-fresh-block-available.png",
+        "evidence/designer-fresh-block-dropped.png"
+      ],
+      "detail": [
+        {
+          "id": "01M3Q5SE3TQ3MQ2SBEHFAEQ82Y",
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING"
+        }
+      ]
+    },
+    {
+      "id": "DB-12",
+      "status": "pass",
+      "note": "Deleting the email input in the local draft produces the blocking placement alert with the original consent block identity, and the Alerts panel displays the repair card.",
+      "evidence": [
+        "evidence/designer-missing-email-alert.png"
+      ],
+      "detail": {
+        "alerts": [
+          {
+            "type": "onsiteTrackingPostPublish",
+            "id": "",
+            "blocking": false,
+            "dismissed": false,
+            "entity_id": null,
+            "entity_type": null,
+            "explanation": "Website tracking has not detected activity yet. This form may not display until Klaviyo is active on your site."
+          },
+          {
+            "type": "marketingTrackingConsentMissingEmailOnSameStep",
+            "id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "blocking": true,
+            "dismissed": false,
+            "entity_id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "entity_type": "block",
+            "explanation": "The marketing and tracking consent block requires an email input on the same step and on every device where the consent block appears."
+          }
+        ]
+      }
+    },
+    {
+      "id": "DB-13",
+      "status": "pass",
+      "note": "With missing-email placement alert, Publish or schedule opens a blocking explanation; Publish now is disabled and no publish request is issued.",
+      "evidence": [
+        "evidence/designer-publish-blocked.png"
+      ]
+    },
+    {
+      "id": "DB-15",
+      "status": "pass",
+      "note": "All four saved consent models produce the same blocking missing-email alert for the original consent block in the local draft.",
+      "evidence": [
+        "evidence/designer-missing-email-marketing_and_all_email_tracking.png",
+        "evidence/designer-missing-email-marketing_and_open_tracking.png",
+        "evidence/designer-missing-email-open_tracking_combined_consent.png",
+        "evidence/designer-missing-email-all_tracking_combined_consent.png"
+      ],
+      "detail": [
+        {
+          "model": "MARKETING_AND_ALL_EMAIL_TRACKING",
+          "alert": {
+            "type": "marketingTrackingConsentMissingEmailOnSameStep",
+            "id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "blocking": true,
+            "dismissed": false,
+            "entity_id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "entity_type": "block",
+            "explanation": "The marketing and tracking consent block requires an email input on the same step and on every device where the consent block appears."
+          },
+          "evidence": "evidence/designer-missing-email-marketing_and_all_email_tracking.png"
+        },
+        {
+          "model": "MARKETING_AND_OPEN_TRACKING",
+          "alert": {
+            "type": "marketingTrackingConsentMissingEmailOnSameStep",
+            "id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "blocking": true,
+            "dismissed": false,
+            "entity_id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "entity_type": "block",
+            "explanation": "The marketing and tracking consent block requires an email input on the same step and on every device where the consent block appears."
+          },
+          "evidence": "evidence/designer-missing-email-marketing_and_open_tracking.png"
+        },
+        {
+          "model": "OPEN_TRACKING_COMBINED_CONSENT",
+          "alert": {
+            "type": "marketingTrackingConsentMissingEmailOnSameStep",
+            "id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "blocking": true,
+            "dismissed": false,
+            "entity_id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "entity_type": "block",
+            "explanation": "The marketing and tracking consent block requires an email input on the same step and on every device where the consent block appears."
+          },
+          "evidence": "evidence/designer-missing-email-open_tracking_combined_consent.png"
+        },
+        {
+          "model": "ALL_TRACKING_COMBINED_CONSENT",
+          "alert": {
+            "type": "marketingTrackingConsentMissingEmailOnSameStep",
+            "id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "blocking": true,
+            "dismissed": false,
+            "entity_id": "01M3A6FZF1G1Z9B482BVDMASRV",
+            "entity_type": "block",
+            "explanation": "The marketing and tracking consent block requires an email input on the same step and on every device where the consent block appears."
+          },
+          "evidence": "evidence/designer-missing-email-all_tracking_combined_consent.png"
+        }
+      ]
+    },
+    {
+      "id": "DB-14",
+      "status": "pass",
+      "note": "Restoring the original email input clears the placement alert in the server response and visible Alerts panel; Publish now becomes enabled. Publication was not clicked.",
+      "evidence": [
+        "evidence/designer-missing-email-alert.png",
+        "evidence/designer-email-restored-alerts.png",
+        "evidence/designer-email-restored-publish-enabled.png"
+      ]
+    },
+    {
+      "id": "DB-08",
+      "status": "pass",
+      "note": "Mocked tracking-off account setting shows a dismissible warning; consent remains editable and Publish now stays enabled on a valid local form. No publish request was sent.",
+      "evidence": [
+        "evidence/designer-account-tracking-disabled.png",
+        "evidence/designer-account-warning-dismissed.png",
+        "evidence/designer-tracking-off-publish-enabled.png"
+      ]
+    }
+  ],
+  "updatedAt": "2026-09-29T18:14:31.719Z"
+}
